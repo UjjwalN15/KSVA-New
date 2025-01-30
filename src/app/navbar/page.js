@@ -53,6 +53,11 @@ const services = [
     description: "Connect with influencers to promote your brand",
     image: "/mar.svg",
   },
+  {
+    title: "Business Challenges",
+    description: "Get in touch with a consulting solutions professional",
+    image: "/mar.svg",
+  },
 ];
 
 const resources = [

@@ -40,7 +40,7 @@ export default function BusinessChallenges() {
                                     <input required type='email' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Work Email'></input>
                                     <input required type='number' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Business Phone'></input>
                                 </div>
-                                <input type='submit' className='bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-20 rounded-[20px] text-white w-max self-center mt-[20px]' value='Submit'></input>
+                                <input type='submit' className='cursor-pointer transition-transform  hover:scale-105 bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-20 rounded-[20px] text-white w-max self-center mt-[20px]' value='Submit'></input>
                                 <p className='text-[1rem] self-center'>This site is protected by reCAPTCHA. The Google <a href='#' className='text-blue-400 underline' title='Privacy Policy'>Privacy Policy</a> and <a className='text-blue-400 underline' href='#' title='Terms and Conditions'>Terms and Conditions</a></p>
                             </div>
 
@@ -85,19 +85,27 @@ export default function BusinessChallenges() {
             </section>
 
             <section className="p-6 text-center mt-10 w-[100%] mx-auto md:flex gap-5">
-                <div className='relative z-[-2] md:w-[30%] h-[50vh] p-3'>
+                <div className='relative md:w-[30%] h-[50vh] p-3'>
+                    {/* Image */}
                     <Image
                         src="https://thumbs.dreamstime.com/b/mixed-group-around-table-business-meeting-21283913.jpg"
                         alt="Meeting"
                         height={300}
                         width={300}
-                        className='rounded-[50px]'
-                    ></Image>
-                    <div className='absolute top-[140px] z-[-1] bg-gray-200 text-2xl font-bold text-left py-20 px-5 rounded-[50px]'>
+                        className='rounded-[50px] relative z-10' // Ensures the image is above the background div
+                    />
+
+                    {/* Text Background */}
+                    <div className='absolute top-[140px] bg-gray-200 text-2xl font-bold text-left py-20 px-5 rounded-[50px] z-0'>
                         <h3>See how our consulting capabilities can help transform your business.</h3>
                     </div>
-                    <button className='absolute bottom-10 md:bottom-[-20px] left-10 md:left-[80px] font-bold bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-10 w-max rounded-[20px] text-white mt-[20px]'>Explore Consulting Solutions</button>
+
+                    {/* CTA Button */}
+                    <a className='absolute bottom-10 md:bottom-[-20px] left-10 md:left-[80px] font-bold bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-10 w-max rounded-[20px] text-white mt-[20px] cursor-pointer transition-transform hover:scale-105 z-20'>
+                        Explore Consulting Solutions
+                    </a>
                 </div>
+
                 {/* For image Upper */}
                 <div className='p-6 w-full md:w-[70%] shadow-xl bg-gray-300 text-left flex flex-col gap-10 rounded-[30px]'>
                     <h2 className='text-2xl md:text-5xl text-center'>AREA OF EXPERTISE</h2>

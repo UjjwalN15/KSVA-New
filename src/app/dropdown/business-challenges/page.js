@@ -5,40 +5,40 @@ export default function BusinessChallenges() {
         <section>
             <section className="p-6 text-center">
                 <h1 className="text-2xl md:text-6xl font-bold text-gray-800">Tell us about your business challenges</h1>
-                <div className="w-[100%] md:w-[50%] p-5 text-[20px] md:text-4xl rounded-[20px] shadow-xl  text-center flex flex-col align-center gap-5 h-max mx-auto mt-5">
+                <div className="w-[100%] md:w-[70%] p-5 text-[20px] md:text-[26px] rounded-[20px] shadow-xl  text-center flex flex-col align-center gap-5 h-max mx-auto mt-5">
                     <h3>Get in touch with a consulting <br /> solutions professional</h3>
                     <div>
                         <i className="fa-solid fa-phone"></i>
                         <h3>Call Us: 1.866.355.0046</h3>
                         <form className='flex flex-col gap-5 mt-8'>
-                            <div className='flex flex-col gap-3 text-left'>
-                                <h2>Describe Your Needs</h2>
+                            <div className='flex flex-col gap-3 text-left text-[24px]'>
+                                <h2 className='text-4xl'>Describe Your Needs</h2>
                                 <div className="flex flex-col md:flex-row gap-2">
-                                    <select required className="w-full p-2 text-gray-400 bg-gray-200 rounded-[20px] focus:outline-none">
+                                    <select required className="text-blue-400 border-b-4 border-[#0284c7] w-full md:w-[calc(100%/2.1)] p-2 rounded-[20px] focus:outline-none">
                                         <option value="Option 1">Option 1</option>
                                         <option value="Option 2">Option 2</option>
                                         <option value="Option 3">Option 3</option>
                                         <option value="Option 4">Option 4</option>
                                     </select>
-                                    <input required type='number' className='w-full md:w-[calc(100%/1.8)] p-2 rounded-[20px] bg-gray-200 focus:outline-none' placeholder='Zip Code'></input>
+                                    <input required type='number' className='w-full md:w-[calc(100%/1.8)] p-2 rounded-[20px] text-blue-700 border-b-4 border-[#0284c7] focus:outline-none placeholder:text-blue-400' placeholder='Zip Code'></input>
                                 </div>
-                                <textarea required className='h-[200px] bg-gray-200 p-3 w-full rounded-[20px] focus:outline-none' placeholder='Project Details'></textarea>
+                                <textarea required className='h-[200px] text-blue-700 border-b-4 border-[#0284c7] p-3 w-full rounded-[20px] focus:outline-none placeholder:text-blue-400' placeholder='Project Details'></textarea>
                             </div>
                             <div className='flex flex-col gap-3 text-left'>
-                                <h2>Contact Information</h2>
+                                <h2 className='text-4xl'>Contact Information</h2>
                                 <div className='flex flex-wrap gap-3'>
-                                    <input required type='text' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='First Name'></input>
-                                    <input required type='text' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Last Name'></input>
-                                    <input required type='text' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Company Name'></input>
-                                    <select required className="bg-gray-200 w-full md:w-[calc(100%/2.1)] p-2 text-gray-400 rounded-[20px] focus:outline-none">
+                                    <input required type='text' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='First Name'></input>
+                                    <input required type='text' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Last Name'></input>
+                                    <input required type='text' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Company Name'></input>
+                                    <select required className="text-blue-400 border-b-4 border-[#0284c7] w-full md:w-[calc(100%/2.1)] p-2 rounded-[20px] focus:outline-none">
                                         <option value="Option 1">Option 1</option>
                                         <option value="Option 2">Option 2</option>
                                         <option value="Option 3">Option 3</option>
                                         <option value="Option 4">Option 4</option>
                                     </select>
-                                    <input required type='text' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Your Job Title'></input>
-                                    <input required type='email' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Work Email'></input>
-                                    <input required type='number' className='p-2 bg-gray-200 rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none' placeholder='Business Phone'></input>
+                                    <input required type='text' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Your Job Title'></input>
+                                    <input required type='email' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Work Email'></input>
+                                    <input required type='number' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Business Phone'></input>
                                 </div>
                                 <input type='submit' className='cursor-pointer transition-transform  hover:scale-105 bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-20 rounded-[20px] text-white w-max self-center mt-[20px]' value='Submit'></input>
                                 <p className='text-[1rem] self-center'>This site is protected by reCAPTCHA. The Google <a href='#' className='text-blue-400 underline' title='Privacy Policy'>Privacy Policy</a> and <a className='text-blue-400 underline' href='#' title='Terms and Conditions'>Terms and Conditions</a></p>

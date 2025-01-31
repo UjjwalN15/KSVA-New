@@ -22,6 +22,19 @@ const inter = Inter({ subsets: ["latin"] });
 
 const FALLBACK_IMAGE = "/placeholder.svg?height=48&width=48";
 
+const businesses = [
+  {
+    title: "Permanent Talent",
+    description: "Expert guidance for your IT strategy",
+    image: "/IT.svg",
+  },
+  {
+    title: "Contract Talent",
+    description: "Custom solutions for your business needs",
+    image: "/software.svg",
+  },
+]
+
 const services = [
   {
     title: "IT Consulting",
@@ -164,6 +177,41 @@ export function Navbar() {
                             }}
                           />
                           <span className="text-sm">{service.description}</span>
+                        </div>
+                      </ListItem>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>
+                  <span className="text-base font-medium hover:text-sky-600 transition-colors">
+                    Hire Talent
+                  </span>
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                    {businesses.map((business) => (
+                      <ListItem
+                        key={business.title}
+                        title={business.title}
+                        href={`/dropdown/${business.title
+                          .toLowerCase()
+                          .replace(" ", "-")}`}
+                      >
+                        <div className="flex items-center">
+                          <Image
+                            src={business.image}
+                            alt={business.title}
+                            width={48}
+                            height={48}
+                            className="mr-3 rounded-md object-cover"
+                            onError={(e) => {
+                              e.target.src = FALLBACK_IMAGE;
+                              e.target.alt = `${business.title} Placeholder`;
+                            }}
+                          />
+                          <span className="text-sm">{business.description}</span>
                         </div>
                       </ListItem>
                     ))}

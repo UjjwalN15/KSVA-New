@@ -183,7 +183,7 @@ export function Navbar() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem>
+              {/* <NavigationMenuItem>
                 <NavigationMenuTrigger>
                   <span className="text-base font-medium hover:text-sky-600 transition-colors">
                     Hire Talent
@@ -217,6 +217,15 @@ export function Navbar() {
                     ))}
                   </ul>
                 </NavigationMenuContent>
+              </NavigationMenuItem> */}
+              <NavigationMenuItem>
+                <Link href="/hire-talent" legacyBehavior passHref>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    <span className="text-base font-medium hover:text-sky-600 transition-colors">
+                      Hire Talent
+                    </span>
+                  </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/career" legacyBehavior passHref>

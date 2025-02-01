@@ -4,15 +4,15 @@ export default function BusinessChallenges() {
     return (
         <section>
             <section className="p-6 text-center">
-                <h1 className="text-2xl md:text-6xl font-bold text-gray-800">Tell us about your business challenges</h1>
-                <div className="w-[100%] md:w-[70%] p-5 text-[20px] md:text-[26px] rounded-[20px] shadow-xl  text-center flex flex-col align-center gap-5 h-max mx-auto mt-5">
+                <h1 className="text-2xl md:text-[60px] font-bold text-gray-800">Tell us about your business challenges</h1>
+                <div className="w-[100%] md:w-[70%] p-5 text-[20px] md:text-[24px] rounded-[20px] shadow-xl  text-center flex flex-col align-center gap-5 h-max mx-auto mt-5">
                     <h3>Get in touch with a consulting <br /> solutions professional</h3>
                     <div>
                         <i className="fa-solid fa-phone"></i>
                         <h3>Call Us: 1.866.355.0046</h3>
                         <form className='flex flex-col gap-5 mt-8'>
                             <div className='flex flex-col gap-3 text-left text-[24px]'>
-                                <h2 className='text-4xl'>Describe Your Needs</h2>
+                                <h2 className='text-[24px] font-bold'>Describe Your Needs</h2>
                                 <div className="flex flex-col md:flex-row gap-2">
                                     <select required className="text-blue-400 border-b-4 border-[#0284c7] w-full md:w-[calc(100%/2.1)] p-2 rounded-[20px] focus:outline-none">
                                         <option value="Option 1">Option 1</option>
@@ -25,7 +25,7 @@ export default function BusinessChallenges() {
                                 <textarea required className='h-[200px] text-blue-700 border-b-4 border-[#0284c7] p-3 w-full rounded-[20px] focus:outline-none placeholder:text-blue-400' placeholder='Project Details'></textarea>
                             </div>
                             <div className='flex flex-col gap-3 text-left'>
-                                <h2 className='text-4xl'>Contact Information</h2>
+                                <h2 className='text-[24px] font-bold'>Contact Information</h2>
                                 <div className='flex flex-wrap gap-3'>
                                     <input required type='text' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='First Name'></input>
                                     <input required type='text' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Last Name'></input>
@@ -40,7 +40,7 @@ export default function BusinessChallenges() {
                                     <input required type='email' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Work Email'></input>
                                     <input required type='number' className='p-2 text-blue-700 border-b-4 border-[#0284c7] rounded-[20px] w-full md:w-[calc(100%/2.1)] focus:outline-none placeholder:text-blue-400' placeholder='Business Phone'></input>
                                 </div>
-                                <input type='submit' className='cursor-pointer transition-transform  hover:scale-105 bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-20 rounded-[20px] text-white w-max self-center mt-[20px]' value='Submit'></input>
+                                <input type='submit' className='cursor-pointer transition-transform  hover:scale-105 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-600 bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-20 rounded-[20px] text-white w-max self-center mt-[20px]' value='Submit'></input>
                                 <p className='text-[1rem] self-center'>This site is protected by reCAPTCHA. The Google <a href='#' className='text-blue-400 underline' title='Privacy Policy'>Privacy Policy</a> and <a className='text-blue-400 underline' href='#' title='Terms and Conditions'>Terms and Conditions</a></p>
                             </div>
 
@@ -52,9 +52,9 @@ export default function BusinessChallenges() {
                 </div>
             </section>
             <section className="p-6 text-center mt-10 w-[80%] mx-auto">
-                <h1 className="text-[50px] md:text-6xl font-bold text-gray-800">Solutions</h1>
+                <h1 className="text-[50px] md:text-[60px] font-bold text-gray-800">Solutions</h1>
                 <div className='w-full flex flex-wrap justify-between mt-9'>
-                    <div className="w-full md:w-[calc(100%/3.5)] text-left text-blue-600 p-5 text-[18px] md:text-2xl flex flex-col gap-5">
+                    <div className="w-full md:w-[calc(100%/3.5)] text-left text-blue-600 p-5 text-[18px] md:text-[24px] flex flex-col gap-5">
                         <p>Artificial Intelligence</p>
                         <p>Cybersecurity</p>
                         <p>Digital Transformation</p>
@@ -63,7 +63,7 @@ export default function BusinessChallenges() {
                         <p>Regulatory Compilance</p>
                         <p>Sustainability</p>
                     </div>
-                    <div className="w-full md:w-[calc(100%/3.5)] text-left text-blue-600 p-5 text-[18px] md:text-2xl flex flex-col gap-5">
+                    <div className="w-full md:w-[calc(100%/3.5)] text-left text-blue-600 p-5 text-[18px] md:text-[24px] flex flex-col gap-5">
                         <p>Cloud</p>
                         <p>Data and Analysis</p>
                         <p>Ecosystem Partners</p>
@@ -72,7 +72,7 @@ export default function BusinessChallenges() {
                         <p>Risk Management</p>
                         <p>Technology</p>
                     </div>
-                    <div className="w-full md:w-[calc(100%/3.5)] text-left text-blue-600 p-5 text-[18px] md:text-2xl flex flex-col gap-5">
+                    <div className="w-full md:w-[calc(100%/3.5)] text-left text-blue-600 p-5 text-[18px] md:text-[24px] flex flex-col gap-5">
                         <p>Customer Experience</p>
                         <p>Data Privacy</p>
                         <p>Employee Experience</p>
@@ -101,15 +101,15 @@ export default function BusinessChallenges() {
                     </div>
 
                     {/* CTA Button */}
-                    <a className='absolute bottom-10 md:bottom-[-20px] left-10 md:left-[80px] font-bold bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-10 w-max rounded-[20px] text-white mt-[20px] cursor-pointer transition-transform hover:scale-105 z-20'>
+                    <a className='absolute bottom-10 md:bottom-[-20px] left-10 md:left-[80px] font-bold bg-gradient-to-r from-[#93c5fd] to-[#0284c7] py-3 px-10 w-max rounded-[20px] hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-600 text-white mt-[20px] cursor-pointer transition-transform hover:scale-105 z-20'>
                         Explore Consulting Solutions
                     </a>
                 </div>
 
                 {/* For image Upper */}
                 <div className='p-6 w-full md:w-[70%] shadow-xl bg-gray-300 text-left flex flex-col gap-10 rounded-[30px]'>
-                    <h2 className='text-2xl md:text-5xl text-center'>AREA OF EXPERTISE</h2>
-                    <div className='flex gap-5 w-full text-[15px] md:text-[1.25rem]'>
+                    <h2 className='text-2xl md:text-[60px] text-center'>AREA OF EXPERTISE</h2>
+                    <div className='flex gap-5 w-full text-[15px] md:text-[20px]'>
                         <div className='w-[55%] p-5'>
                             <div>
                                 <h2 className='font-bold'>Technology</h2>

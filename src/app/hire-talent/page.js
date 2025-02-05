@@ -6,7 +6,7 @@ const HireTalentPage = () => {
     return (
         <>
             <section className="flex flex-col gap-15 relative pl-[200px] pt-[100px] w-full h-[110vh]">
-                <h2 className="text-[96px] ">Discover your <br /> next hire !</h2>
+                <h2 className="text-[96px] font-semibold ">Discover your <br /> next hire !</h2>
                 <p className="text-[25px]">Explore recruiter-reviewed and AI-matched candidates, <br /> or share details about your open role to start hiring
                     today. <br /> The decision is yours.</p>
                 <div className="flex items-center shadow-2xl p-5 w-[50%] text-2xl mt-[50px] justify-between">
@@ -137,7 +137,48 @@ const HireTalentPage = () => {
                     </div>
                 </div>
             </section>
-        </>
+            <section className="w-full flex">
+                <div className="w-[70%] h-full flex flex-col gap-10">
+                    <Image
+                        src="/ring.jpg"
+                        alt="Image"
+                        width={500}
+                        height={100}
+                        className="w-full"
+                    />
+                </div>
+                <div className="w-[60%] flex flex-col gap-10 pt-40">
+                    <hr className="w-[100px] h-[10px] bg-black" />
+                    <h2 className="text-[96px] font-bold">Hire talent that delivers</h2>
+                    <p className="text-[24px]">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
+                    <button type="submit" 
+                    className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Find Your next Hire</button>
+                </div>
+            </section>
+            <section className="w-full flex flex-col md:flex-row bg-slate-700 p-10">
+                <div className="w-full md:w-[50%] flex flex-col gap-10 pt-10 p-5 bg-amber-300">
+                    <hr className="w-[100px] h-2 bg-black" />
+                    <h2 className="text-[48px] md:text-[96px]">Access global consulting expertise</h2>
+                    <p className="text-[18px] md:text-[24px]">
+                        Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
+                    </p>
+                    <button type="submit" className="w-max rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#033941] to-[#0892A7] text-white transition-transform hover:scale-105">
+                        Learn More
+                    </button>
+                </div>
+                <div className="h-[500px] w-[50%] bg-amber-600">
+                    {/* <Image
+                        src="/global expertise.jpg"
+                        alt="Image"
+                        width={500}
+                        height={300}
+                        layout="intrinsic"
+                        className="w-full"
+                    /> */}
+                </div>
+            </section>
+
+        </ >
     );
 }
 

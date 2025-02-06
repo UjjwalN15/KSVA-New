@@ -13,11 +13,11 @@ export default function BusinessChallenges() {
                         <form className='flex flex-col gap-5 mt-8'>
                             <div className='flex flex-col gap-5 text-left'>
                                 <h2 className='text-[18px] lg:text-[24px] leading-[36px] font-bold'>Describe Your Needs</h2>
-                                <div className='gap-5 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:w-full'>
-                                    <div className='lg:w-[calc(100%/2.3)]'>
+                                <div className='flex flex-col lg:flex-row lg:items-center lg:gap-3 lg:w-full'>
+                                    <div className='lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Select an option</h3>
                                         <div className="flex flex-col md:flex-row gap-2">
-                                            <select required className="w-full h-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none">
+                                            <select required className="w-full h-full bg-[#f9fafb] text-[14px] pr-10 text-black p-2 rounded-[6px] focus:outline-none">
                                                 <option value="Option 1">Option 1</option>
                                                 <option value="Option 2">Option 2</option>
                                                 <option value="Option 3">Option 3</option>
@@ -25,7 +25,7 @@ export default function BusinessChallenges() {
                                             </select>
                                         </div>
                                     </div>
-                                    <div className='lg:w-[calc(100%/2.3)]'>
+                                    <div className='lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Zip Code</h3>
                                         <input required type='number' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Zip Code'></input>
                                     </div>

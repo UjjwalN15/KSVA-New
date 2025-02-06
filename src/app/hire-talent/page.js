@@ -108,11 +108,11 @@ const HireTalentPage = () => {
                     <p>Your Guide to a seamless hiring process</p>
                 </div>
                 <Image
-                        src="/roadmap.jpg"
-                        alt="Image"
-                        width={500}
-                        height={100}
-                        className="h-full w-full"
+                    src="/roadmap.jpg"
+                    alt="Image"
+                    width={500}
+                    height={100}
+                    className="h-full w-full"
                 />
                 <div className="w-full flex justify-evenly p-5 pt-10">
                     <div className="relative w-[calc(100%/5.3)] h-[300px] bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex justify-center items-center p-5">
@@ -151,30 +151,131 @@ const HireTalentPage = () => {
                     <hr className="w-[100px] h-[10px] bg-black" />
                     <h2 className="text-[96px] font-bold">Hire talent that delivers</h2>
                     <p className="text-[24px]">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
-                    <button type="submit" 
-                    className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Find Your next Hire</button>
+                    <button type="submit"
+                        className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Find Your next Hire</button>
                 </div>
             </section>
-            <section className="w-full flex flex-col md:flex-row bg-slate-700 p-10">
-                <div className="w-full md:w-[50%] flex flex-col gap-10 pt-10 p-5 bg-amber-300">
-                    <hr className="w-[100px] h-2 bg-black" />
-                    <h2 className="text-[48px] md:text-[96px]">Access global consulting expertise</h2>
-                    <p className="text-[18px] md:text-[24px]">
-                        Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
-                    </p>
-                    <button type="submit" className="w-max rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#033941] to-[#0892A7] text-white transition-transform hover:scale-105">
-                        Learn More
-                    </button>
+            <section className="w-full flex flex-col p-10">
+                <div className="flex">
+                    <div className="w-full md:w-[50%] flex flex-col gap-10 pt-10 p-5">
+                        <hr className="w-[100px] h-2 bg-black" />
+                        <h2 className="text-[48px] md:text-[96px]">Access global consulting expertise</h2>
+                        <p className="text-[18px] md:text-[24px]">
+                            Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
+                        </p>
+                        <button type="submit" className="w-max rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#033941] to-[#0892A7] text-white transition-transform hover:scale-105">
+                            Learn More
+                        </button>
+                    </div>
+                    <div className="w-[60%] flex justify-center items-center">
+                        <Image
+                            src="/global expertise.jpg"
+                            alt="Image"
+                            width={500}
+                            height={500}
+                            layout="intrinsic"
+                            className="w-full h-full"
+                        />
+                    </div>
                 </div>
-                <div className="h-[500px] w-[50%] bg-amber-600">
-                    {/* <Image
-                        src="/global expertise.jpg"
+                <div className="w-full flex justify-center gap-5 mt-3">
+                    <div className="flex gap-4 items-center w-[calc(100%/3.2)]">
+                        <i className="fa-solid fa-check text-3xl border-[10px] font-extrabold border-black rounded-[50%] p-5"></i>
+                        <p className="text-[18px] md:text-[24px]">Achieve long-term, strategic transformation</p>
+                    </div>
+                    <div className="flex gap-4 items-center w-[calc(100%/3.2)]">
+                        <i className="fa-solid fa-check text-3xl border-[10px] font-extrabold border-black rounded-[50%] p-5"></i>
+                        <p className="text-[18px] md:text-[24px]">Drive immediate business results</p>
+                    </div>
+                    <div className="flex gap-4 items-center w-[calc(100%/3.2)] justify-center">
+                        <i className="fa-solid fa-check text-3xl border-[10px] font-extrabold border-black rounded-[50%] p-5"></i>
+                        <p className="text-[18px] md:text-[24px]">Run day-to-day operations with managed operations</p>
+                    </div>
+                </div>
+            </section>
+            <section className="w-full flex p-10 gap-10">
+                <div className="w-[50%] flex flex-col gap-10">
+                    <Image
+                        src="/team-meeting.png"
                         alt="Image"
                         width={500}
-                        height={300}
-                        layout="intrinsic"
-                        className="w-full"
-                    /> */}
+                        height={100}
+                        className="w-full h-full rounded-b-[50px]"
+                    />
+                </div>
+                <div className="w-[50%] flex flex-col gap-10">
+                    <hr className="w-[100px] h-[10px] bg-black" />
+                    <h2 className="text-[96px] font-bold">Hire the talent you need</h2>
+                    <p className="text-[24px]">Hire the talent you need to grow your business.Find skilled professionals who fit your vision.Build a strong team for lasting success!</p>
+                    <button type="submit"
+                        className="w-max rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Contact Us
+                    </button>
+                </div>
+            </section>
+            <section className="w-full mt-20 flex flex-col p-10 pt-[250px] gap-10">
+                <div className="flex justify-between items-center">
+                    <div className="pt-[50px] pb-[10px] text-[20px] relative w-[320px] bg-[#E3F1F4] rounded-[20px]">
+                        <Image
+                            src="/image 10.png"
+                            alt="Image"
+                            width={500}
+                            height={100}
+                            className="absolute top-[-200px]"
+                        />
+                        <h3 className="font-bold pl-10">Know how much to pay</h3>
+                        <p className="pl-10 pr-5 mt-5">Attract and retain talent with our Salary Guide.</p>
+                        <p className="mt-20 text-center font-extrabold text-[#3482A3]">Search Salaries</p>
+                    </div>
+                    <div className="pt-[100px] pb-[10px] text-[20px] relative w-[320px] bg-[#E3F1F4] rounded-[20px]">
+                        <Image
+                            src="/image 8.png"
+                            alt="Image"
+                            width={500}
+                            height={100}
+                            className="absolute top-[-250px]"
+                        />
+                        <h3 className="font-bold pl-10">Access exclusive talent</h3>
+                        <p className="pl-10 pr-5 mt-5">Don't miss a beat with proven industry veterans.</p>
+                        <p className="mt-20 text-center font-extrabold text-[#3482A3] px-10">Hire Robert Half Employees</p>
+                    </div>
+                    <div className="pt-[50px] pb-[10px] text-[20px] relative w-[320px] bg-[#E3F1F4] rounded-[20px]">
+                        <Image
+                            src="/image 7.png"
+                            alt="Image"
+                            width={500}
+                            height={100}
+                            className="absolute top-[-200px]"
+                        />
+                        <h3 className="font-bold pl-10">What jobs are in demand?</h3>
+                        <p className="pl-10 pr-5 mt-5">Stay current on the latest hiring & employment trends.</p>
+                        <p className="mt-20 text-center font-extrabold text-[#3482A3]">Access Report</p>
+                    </div>
+                </div>
+                <div className="flex justify-evenly items-center mt-28">
+                    <div className="pt-[50px] pb-[10px] text-[20px] relative w-[320px] bg-[#E3F1F4] rounded-[20px]">
+                        <Image
+                            src="/image 9.png"
+                            alt="Image"
+                            width={500}
+                            height={100}
+                            className="absolute top-[-200px]"
+                        />
+                        <h3 className="font-bold pl-10">Onboard talent in a flash</h3>
+                        <p className="pl-10 pr-5 mt-5">Got a fire drill? Find the talent you need, now.</p>
+                        <p className="mt-20 text-center font-extrabold text-[#3482A3]">Hire Contract Talent</p>
+                    </div>
+                    <div className="pt-[50px] pb-[10px] text-[20px] relative w-[320px] bg-[#E3F1F4] rounded-[20px]">
+                        <Image
+                            src="/imagelast.png"
+                            alt="Image"
+                            width={500}
+                            height={100}
+                            className="absolute top-[-200px]"
+                        />
+                        <h3 className="font-bold pl-10">Remote staffing solutions</h3>
+                        <p className="pl-10 pr-5 mt-5">Find talent that's ready to work from anywhere.</p>
+                        <p className="mt-20 text-center font-extrabold text-[#3482A3]">Find More Talent</p>
+                    </div>
                 </div>
             </section>
 

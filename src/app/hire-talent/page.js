@@ -278,7 +278,51 @@ const HireTalentPage = () => {
                     </div>
                 </div>
             </section>
-
+            <section className="relative w-full h-[200vh] bg-amber-400 mt-20">
+                <img
+                    src="/image 12.png"
+                    alt="Image"
+                    className="w-full h-full object-cover"
+                />
+                <div className="z-10 absolute top-[170px] left-[80px] bg-[#FFF0E8] h-[340px] w-[480px] text-[32px] font-[700] text-center rounded-[30px] rotate-[11deg] p-5">
+                    <h3>Services</h3>
+                    <ul className="list-disc list-inside mx-auto">
+                        <li>IT Consulting</li>
+                        <li>Cloud Services</li>
+                        <li>Influencer Marketing</li>
+                        <li>Software Development</li>
+                        <li>Cyber Security</li>
+                    </ul>
+                </div>
+                <div className="z-10 absolute top-[310px] right-[45px] bg-[#E0E6FE] h-[365px] w-[480px] text-[32px] font-[700] text-center rounded-[30px] rotate-[-11deg] p-5">
+                    <h3>RESOURCES & TOOLS</h3>
+                    <ul className="list-disc list-inside mx-auto">
+                        <li>Discover Insights</li>
+                        <li>Invoice</li>
+                        <li>Job Directory</li>
+                        <li>Salary Guide</li>
+                        <li>Time Reports</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div className="z-10 absolute bottom-[300px] left-[150px] bg-[#F3E0FE] h-[370px] w-[480px] text-[32px] font-[700] text-center rounded-[30px] rotate-[11deg] p-5">
+                    <h3>AREAS OF EXPERTISE</h3>
+                    <ul className="list-disc list-inside mx-auto">
+                        <li>Finance</li>
+                        <li>Technology</li>
+                        <li>Digital Marketing</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </div>
+                <div className="z-10 absolute bottom-[55px] right-[35px] bg-[#FFEEE4] h-[365px] w-[450px] text-[32px] font-[700] text-center rounded-[30px] rotate-[-8deg] p-5">
+                    <h3>ABOUT</h3>
+                    <ul className="list-disc list-inside mx-auto">
+                        <li>About KSVA</li>
+                        <li>Careers With Us</li>
+                        <li>Locations</li>
+                    </ul>
+                </div>
+            </section>
         </ >
     );
 }

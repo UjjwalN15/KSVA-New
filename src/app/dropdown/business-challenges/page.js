@@ -16,7 +16,7 @@ export default function BusinessChallenges() {
                                 <div className='flex flex-col lg:flex-row lg:items-center lg:gap-3 lg:w-full'>
                                     <div className='lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Select an option</h3>
-                                        <div className="flex flex-col md:flex-row gap-2">
+                                        <div className="flex h-[40px] flex-col md:flex-row gap-2">
                                             <select required className="w-full h-full bg-[#f9fafb] text-[14px] pr-10 text-black p-2 rounded-[6px] focus:outline-none">
                                                 <option value="Option 1">Option 1</option>
                                                 <option value="Option 2">Option 2</option>
@@ -27,7 +27,9 @@ export default function BusinessChallenges() {
                                     </div>
                                     <div className='lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Zip Code</h3>
-                                        <input required type='number' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Zip Code'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='number' className='w-full h-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Zip Code'></input>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
@@ -40,38 +42,52 @@ export default function BusinessChallenges() {
                                 <div className='flex flex-wrap gap-3'>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>First Name</h3>
-                                        <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='First Name'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='First Name'></input>
+                                        </div>
                                     </div>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Last Name</h3>
-                                        <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Last Name'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Last Name'></input>
+                                        </div>
                                     </div>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Company Name</h3>
-                                        <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Company Name'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Company Name'></input>
+                                        </div>
                                     </div>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Select an option</h3>
                                         <div className="flex flex-col md:flex-row gap-2">
-                                            <select required className="w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none">
-                                                <option value="Option 1">Option 1</option>
-                                                <option value="Option 2">Option 2</option>
-                                                <option value="Option 3">Option 3</option>
-                                                <option value="Option 4">Option 4</option>
-                                            </select>
+                                            <div className="w-full flex h-[40px] flex-col md:flex-row gap-2">
+                                                <select required className="w-full h-full bg-[#f9fafb] text-[14px] pr-10 text-black p-2 rounded-[6px] focus:outline-none">
+                                                    <option value="Option 1">Option 1</option>
+                                                    <option value="Option 2">Option 2</option>
+                                                    <option value="Option 3">Option 3</option>
+                                                    <option value="Option 4">Option 4</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Job Title</h3>
-                                        <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Job Title'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='Job Title'></input>
+                                        </div>
                                     </div>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Work Email</h3>
-                                        <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='abc@example.com'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='abc@example.com'></input>
+                                        </div>
                                     </div>
                                     <div className='w-full lg:w-[calc(100%/2.1)]'>
                                         <h3 className='text-[16px] text-[#374151]'>Business Phone</h3>
-                                        <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='1234567890 : 10 digits'></input>
+                                        <div className="h-[40px] flex gap-2">
+                                            <input required type='text' className='w-full bg-[#f9fafb] text-[14px] text-black p-2 rounded-[6px] focus:outline-none' placeholder='1234567890 : 10 digits'></input>
+                                        </div>
                                     </div>
                                 </div>
                                 <input type='submit' className='w-full cursor-pointer transition-transform leading-[24px] bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-sm rounded-[6px] mt-[20px] py-2' value='Submit'></input>
@@ -80,9 +96,6 @@ export default function BusinessChallenges() {
 
                         </form>
                     </div>
-                    <form>
-
-                    </form>
                 </div>
             </section>
             <section className="p-6 text-center mt-10 w-[80%] mx-auto">

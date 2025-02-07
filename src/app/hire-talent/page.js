@@ -62,7 +62,7 @@ const HireTalentPage = () => {
                 <div>
                     {/* <img src="/assets/Capture.JPG" alt="Capture" class="h-full" /> */}
                     <Image
-                        src="/4cards.jpg"
+                        src="/4cards.JPG"
                         alt="Image"
                         width={500}
                         height={100}
@@ -140,7 +140,7 @@ const HireTalentPage = () => {
             <section className="w-full flex">
                 <div className="w-[70%] h-full flex flex-col gap-10">
                     <Image
-                        src="/ring.jpg"
+                        src="/ring.JPG"
                         alt="Image"
                         width={500}
                         height={100}
@@ -169,7 +169,7 @@ const HireTalentPage = () => {
                     </div>
                     <div className="w-[60%] flex justify-center items-center">
                         <Image
-                            src="/global expertise.jpg"
+                            src="/global expertise.JPG"
                             alt="Image"
                             width={500}
                             height={500}

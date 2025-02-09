@@ -351,6 +351,13 @@ export function Navbar() {
               )}
             </div>
             <Link
+              href="/hire-talent"
+              className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-sky-600 rounded-md transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Hire Talent
+            </Link>
+            <Link
               href="/career"
               className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-sky-600 rounded-md transition-colors"
               onClick={() => setIsOpen(false)}

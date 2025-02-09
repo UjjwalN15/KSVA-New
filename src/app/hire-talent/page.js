@@ -73,7 +73,7 @@ const HireTalentPage = () => {
             <section className="w-full flex h-[100vh]">
                 <div className="w-[60%] h-full flex flex-col gap-10">
                     <Image
-                        src="/ladyifront.jpg"
+                        src="/ladyifront.JPG"
                         alt="Image"
                         width={500}
                         height={100}
@@ -108,7 +108,7 @@ const HireTalentPage = () => {
                     <p>Your Guide to a seamless hiring process</p>
                 </div>
                 <Image
-                    src="/roadmap.jpg"
+                    src="/roadmap.JPG"
                     alt="Image"
                     width={500}
                     height={100}

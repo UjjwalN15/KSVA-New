@@ -28,7 +28,7 @@ const HireTalentPage = () => {
                             <i className="fa-brands fa-hire-a-helper"></i>
                             <p>Hire now</p>
                         </div>
-                        <a href="#" className="py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Contact Us</a>
+                        <a href="#" className="py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Contact Us</a>
                     </div>
                 </div>
                 <div className="hidden lg:block">
@@ -112,7 +112,7 @@ const HireTalentPage = () => {
                                 <input required type="text" placeholder="'Remote', City or ZIP" className="lg:text-[26px] lg:px-3 px-1 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
                             </div>
                         </div>
-                        <button type="submit" className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Preview Candidates</button>
+                        <button type="submit" className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Preview Candidates</button>
                     </form>
                 </div>
             </section>
@@ -167,7 +167,7 @@ const HireTalentPage = () => {
                     <h2 className="text-[40px] lg:text-[96px] font-bold">Hire talent that delivers</h2>
                     <p className="text-[18px] lg:text-[24px]">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
                     <button type="submit"
-                        className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Find Your next Hire</button>
+                        className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Find Your next Hire</button>
                 </div>
             </section>
             <section className="w-full flex flex-col lg:p-10">
@@ -178,7 +178,7 @@ const HireTalentPage = () => {
                         <p className="text-[18px] md:text-[24px]">
                             Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
                         </p>
-                        <button type="submit" className="w-max rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#033941] to-[#0892A7] text-white transition-transform hover:scale-105">
+                        <button type="submit" className="w-max rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#275071] to-[#4A98D7] text-white transition-transform hover:scale-105">
                             Learn More
                         </button>
                     </div>
@@ -223,7 +223,7 @@ const HireTalentPage = () => {
                     <h2 className="text-[40px] lg:text-[96px] font-bold">Hire the talent you need</h2>
                     <p className="text-[18px] lg:text-[24px]">Hire the talent you need to grow your business.Find skilled professionals who fit your vision.Build a strong team for lasting success!</p>
                     <button type="submit"
-                        className="w-max rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#033941] to-[#0892A7] text-white">Contact Us
+                        className="w-max rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Contact Us
                     </button>
                 </div>
             </section>

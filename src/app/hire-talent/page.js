@@ -116,42 +116,6 @@ const HireTalentPage = () => {
                     </form>
                 </div>
             </section>
-            <section className="w-full h-max flex-col-reverse lg:flex-row">
-                <div className="p-5 lg:px-20 lg:py-16">
-                    <hr className="w-[100px] h-[10px] bg-black" />
-                    <h2 className="text-[40px] lg:text-[55px] font-bold">Learn How We <br /> Work With You</h2>
-                    <p>Your Guide to a seamless hiring process</p>
-                </div>
-                <Image
-                    src="/roadmap.JPG"
-                    alt="Image"
-                    width={500}
-                    height={100}
-                    className="h-full w-full"
-                />
-                <div className="w-full flex flex-col gap-14 mt-10 lg:gap-0 lg:flex-row justify-evenly p-5 pt-10">
-                    <div className="relative w-full lg:w-[calc(100%/5.3)] lg:h-[300px] py-20 px-10 bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex justify-center items-center lg:p-5">
-                        <p className="text-3xl font-semibold">Define Hiring Needs & User Flow</p>
-                        <p className="absolute top-[-30px] bg-red-500 px-6 py-3 text-white text-3xl font-bold rounded-[50%] ">1</p>
-                    </div>
-                    <div className="relative w-full lg:w-[calc(100%/5.3)] lg:h-[300px] py-20 px-10 bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex justify-center items-center lg:p-5">
-                        <p className="text-3xl font-semibold">Design & Develop the Page Layout</p>
-                        <p className="absolute top-[-30px] bg-[#FEA31E] px-6 py-3 text-white text-3xl font-bold rounded-[50%] ">2</p>
-                    </div>
-                    <div className="relative w-full lg:w-[calc(100%/5.3)] lg:h-[300px] py-20 px-10 bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex justify-center items-center lg:p-5">
-                        <p className="text-3xl font-semibold">Integrate Smart Filtering & Matching</p>
-                        <p className="absolute top-[-30px] bg-[#355F06] px-6 py-3 text-white text-3xl font-bold rounded-[50%] ">3</p>
-                    </div>
-                    <div className="relative w-full lg:w-[calc(100%/5.3)] lg:h-[300px] py-20 px-10 bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex justify-center items-center lg:p-5">
-                        <p className="text-3xl font-semibold">Optimize for Engagement & Conversion</p>
-                        <p className="absolute top-[-30px] bg-[#1C89FE] px-6 py-3 text-white text-3xl font-bold rounded-[50%] ">4</p>
-                    </div>
-                    <div className="relative w-full lg:w-[calc(100%/5.3)] lg:h-[300px] py-20 px-10 bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex justify-center items-center lg:p-5">
-                        <p className="text-3xl font-semibold">Test, Launch & Improve</p>
-                        <p className="absolute top-[-30px] bg-[#FDACFD] px-6 py-3 text-white text-3xl font-bold rounded-[50%] ">5</p>
-                    </div>
-                </div>
-            </section>
             <section className="w-full flex lg:flex-row flex-col">
                 <div className="w-full lg:w-[70%] h-full flex flex-col gap-10">
                     <Image

@@ -72,7 +72,7 @@ const HireTalentPage = () => {
                     <p className="text-2xl lg:text-[24px] leading-10">Explore the full potential of your candidates and employees with our all-in-one Tech Solution.</p>
                     <a href="#" className="text-2xl flex gap-5 items-center">See more information <i className="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                     {/* <img src="/assets/Capture.JPG" alt="Capture" class="h-full" /> */}
                     <Image
                         src="/4cards.JPG"

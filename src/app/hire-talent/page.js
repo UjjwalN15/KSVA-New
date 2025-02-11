@@ -16,10 +16,10 @@ const HireTalentPage = () => {
                     />
                 </div>
                 <div className="w-full p-5">
-                    <h2 className="text-[40px] lg:text-[90px] font-semibold ">Discover your <br /> next hire !</h2>
-                    <p className="text-[18px] w-full lg:w-[50%] lg:text-[25px]">Explore recruiter-reviewed and AI-matched candidates, or share details about your open role to start hiring
-                        today. <br /> <strong>The decision is yours.</strong></p>
-                    <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row w-full items-center shadow-2xl p-5 lg:w-[55%] text-2xl mt-[50px] justify-between">
+                    <h2 className="text-3xl lg:text-6xl font-semibold">Discover your <br/> <span className="text-blue-400">next hire !</span></h2>
+                    <p className="text-2xl w-full lg:w-[40%] mt-10 leading-10">Explore recruiter-reviewed and AI-matched candidates, or share details about your open role to start hiring
+                        today. <br /> <br /> <strong>The decision is yours.</strong></p>
+                    <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row w-full items-center shadow-2xl p-5 lg:w-[55%] text-2xl mt-[100px] justify-between">
                         <div className="flex items-center gap-3 pb-[10px] pt-[10px] pr-[20px] lg:border-r-2">
                             <i className="fa-solid fa-arrow-pointer"></i>
                             <p>Preview Candidates</p>
@@ -66,13 +66,13 @@ const HireTalentPage = () => {
                 <img src="/assets/image.png" alt="Image" class="absolute right-[100px] top-[230px] z-1" /> */}
             </section>
             <section className="w-full mt-5 lg:h-[100vh] lg:pl-[200px] flex flex-col-reverse lg:flex-row">
-                <div className="w-full lg:w-[60%] flex flex-col gap-10 p-5 lg:p-0">
-                    <hr className="w-[100px] h-[10px] bg-black" />
-                    <h2 className="text-[40px] lg:text-[55px]">What makes <strong>KSVA Tech Solutions</strong> the best choice? </h2>
-                    <p className="text-[18px] lg:text-[24px]">Explore the full potential of your candidates and employees with our all-in-one Tech Solution.</p>
-                    <a href="#" className="text-[18px] lg:text-[24px] flex gap-5 items-center">See more information <i className="fa-solid fa-arrow-right"></i></a>
+                <div className="w-full lg:w-[40%] flex flex-col justify-center gap-10 p-5 lg:p-0">
+                    <hr className="w-[100px] h-[10px] bg-blue-400" />
+                    <h2 className="text-3xl lg:text-6xl leading-10">What makes <strong><span className="text-blue-400">KSVA Tech Solutions</span></strong> the best choice? </h2>
+                    <p className="text-2xl lg:text-[24px] leading-10">Explore the full potential of your candidates and employees with our all-in-one Tech Solution.</p>
+                    <a href="#" className="text-2xl flex gap-5 items-center">See more information <i className="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div>
+                <div className="w-[60%]">
                     {/* <img src="/assets/Capture.JPG" alt="Capture" class="h-full" /> */}
                     <Image
                         src="/4cards.JPG"
@@ -93,20 +93,20 @@ const HireTalentPage = () => {
                         className="w-full"
                     />
                 </div>
-                <div className="w-full lg:w-[60%] flex flex-col gap-10 p-5">
-                    <hr className="w-[100px] h-[10px] bg-black" />
-                    <h2 className="text-[40px] lg:text-[55px]">Explore a Samples of Our Top Candidates</h2>
-                    <p className="text-[18px] lg:text-[20px]">Share your open role details and instantly view recruiter-assessed, AI-matched talent.</p>
+                <div className="w-full lg:w-[60%] flex flex-col justify-center gap-10 p-5">
+                    <hr className="w-[100px] h-[10px] bg-blue-400" />
+                    <h2 className="text-3xl lg:text-6xl">Explore a Samples of Our <span className="text-blue-400">Top Candidates</span></h2>
+                    <p className="text-2xl">Share your open role details and instantly view recruiter-assessed, AI-matched talent.</p>
                     <form className="flex flex-col gap-10">
                         <div className="flex gap-5 lg:flex-row flex-col">
-                            <p className="lg:text-[26px] text-[18px]">I am looking for a</p>
+                            <p className="lg:text-2xl">I am looking for a</p>
                             <div className="flex gap-3 items-center">
                                 <i className="fa-solid fa-magnifying-glass lg:text-[26px] "></i>
                                 <input required type="text" placeholder="Job Title" className="lg:text-[26px] px-1 lg:px-3 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
                             </div>
                         </div>
                         <div className="flex lg:flex-row flex-col gap-5">
-                            <p className="lg:text-[26px] text-[18px]">Located In</p>
+                            <p className="lg:text-2xl">Located In</p>
                             <div className="flex gap-3 items-center">
                                 <i className="fa-solid fa-location-dot lg:text-[26px] "></i>
                                 <input required type="text" placeholder="'Remote', City or ZIP" className="lg:text-[26px] lg:px-3 px-1 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
@@ -126,20 +126,20 @@ const HireTalentPage = () => {
                         className="w-full"
                     />
                 </div>
-                <div className="w-full lg:w-[60%] flex flex-col gap-10 p-5 lg:pt-40">
-                    <hr className="w-[100px] h-[10px] bg-black" />
-                    <h2 className="text-[40px] lg:text-[96px] font-bold">Hire talent that delivers</h2>
-                    <p className="text-[18px] lg:text-[24px]">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
+                <div className="w-full lg:w-[60%] flex flex-col justify-center gap-10 p-5 lg:pt-40">
+                    <hr className="w-[100px] h-[10px] bg-blue-400" />
+                    <h2 className="text-3xl lg:text-6xl">Hire talent <br/> <span className="text-blue-400">that delivers</span></h2>
+                    <p className="text-2xl leading-10">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
                     <button type="submit"
                         className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Find Your next Hire</button>
                 </div>
             </section>
             <section className="w-full flex flex-col lg:p-10">
                 <div className="flex flex-col-reverse lg:flex-row">
-                    <div className="w-full md:w-[50%] flex flex-col gap-10 lg:pt-10 p-5">
-                        <hr className="w-[100px] h-2 bg-black" />
-                        <h2 className="text-[40px] lg:text-[48px] md:text-[96px]">Access global consulting expertise</h2>
-                        <p className="text-[18px] md:text-[24px]">
+                    <div className="w-full md:w-[50%] flex flex-col justify-center gap-10 lg:pt-10 p-5">
+                        <hr className="w-[100px] h-2 bg-blue-400" />
+                        <h2 className="text-3xl lg:text-6xl">Access global <br/><span className="text-blue-400">consulting expertise</span></h2>
+                        <p className="text-2xl leading-10">
                             Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
                         </p>
                         <button type="submit" className="w-max rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#275071] to-[#4A98D7] text-white transition-transform hover:scale-105">
@@ -159,15 +159,15 @@ const HireTalentPage = () => {
                 </div>
                 <div className="w-full flex flex-col lg:flex-row justify-center gap-5 mt-3 p-5">
                     <div className="flex gap-4 items-center w-full lg:w-[calc(100%/3.2)]">
-                        <i className="fa-solid fa-check text-3xl border-[10px] font-extrabold border-black rounded-[50%] p-5"></i>
+                        <i className="fa-solid fa-check text-2xl text-blue-400 border-[10px] font-extrabold border-blue-400 rounded-[50%] p-5"></i>
                         <p className="text-[18px] md:text-[24px]">Achieve long-term, strategic transformation</p>
                     </div>
                     <div className="flex gap-4 items-center w-full lg:w-[calc(100%/3.2)]">
-                        <i className="fa-solid fa-check text-3xl border-[10px] font-extrabold border-black rounded-[50%] p-5"></i>
+                        <i className="fa-solid fa-check text-2xl text-blue-400 border-[10px] font-extrabold border-blue-400 rounded-[50%] p-5"></i>
                         <p className="text-[18px] md:text-[24px]">Drive immediate business results</p>
                     </div>
                     <div className="flex gap-4 items-center w-full lg:w-[calc(100%/3.2)] justify-center">
-                        <i className="fa-solid fa-check text-3xl border-[10px] font-extrabold border-black rounded-[50%] p-5"></i>
+                        <i className="fa-solid fa-check text-2xl text-blue-400 border-[10px] font-extrabold border-blue-400 rounded-[50%] p-5"></i>
                         <p className="text-[18px] md:text-[24px]">Run day-to-day operations with managed operations</p>
                     </div>
                 </div>
@@ -182,10 +182,10 @@ const HireTalentPage = () => {
                         className="w-full h-full rounded-b-[50px]"
                     />
                 </div>
-                <div className="w-full lg:w-[50%] flex flex-col gap-10">
-                    <hr className="w-[100px] h-[10px] bg-black" />
-                    <h2 className="text-[40px] lg:text-[96px] font-bold">Hire the talent you need</h2>
-                    <p className="text-[18px] lg:text-[24px]">Hire the talent you need to grow your business.Find skilled professionals who fit your vision.Build a strong team for lasting success!</p>
+                <div className="w-full lg:w-[50%] flex flex-col justify-center gap-10">
+                    <hr className="w-[100px] h-[10px] bg-blue-400" />
+                    <h2 className="text-3xl lg:text-6xl">Hire the talent <br/> <span className="text-blue-400">you need</span></h2>
+                    <p className="text-2xl leading-10">Hire the talent you need to grow your business.Find skilled professionals who fit your vision.Build a strong team for lasting success!</p>
                     <button type="submit"
                         className="w-max rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Contact Us
                     </button>

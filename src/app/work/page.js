@@ -38,7 +38,7 @@ export default function HowWeWork() {
           alt="Image"
           width={500}
           height={100}
-          className="h-full w-[100vw]"
+          className="h-[350px] w-[100vw]"
         />
         <div className="w-full flex flex-col gap-x-5 gap-y-16 mt-10 lg:flex-row flex-wrap justify-between p-5 pt-10">
           <div className="relative w-full lg:w-[calc(100%/3.2)] lg:h-[350px] py-20 px-10 bg-gradient-to-b from-[#FFFFFF] to-[#999999] rounded-[20px] text-center flex flex-col justify-center items-center lg:p-5">

@@ -75,7 +75,7 @@ const HireTalentPage = () => {
                 <div className="w-full lg:w-[60%]">
                     {/* <img src="/assets/Capture.JPG" alt="Capture" class="h-full" /> */}
                     <Image
-                        src="/4cards.JPG"
+                        src="/4cards (Custom).JPG"
                         alt="Image"
                         width={500}
                         height={100}
@@ -86,7 +86,7 @@ const HireTalentPage = () => {
             <section className="w-full flex flex-col lg:flex-row lg:h-[100vh]">
                 <div className="w-full mt-10 lg:mt-0 lg:w-[60%] h-full flex flex-col gap-10">
                     <Image
-                        src="/ladyifront.JPG"
+                        src="/man-76202.JPG"
                         alt="Image"
                         width={500}
                         height={100}
@@ -119,7 +119,7 @@ const HireTalentPage = () => {
             <section className="w-full flex lg:flex-row flex-col">
                 <div className="w-full lg:w-[70%] h-full flex flex-col gap-10">
                     <Image
-                        src="/ring.JPG"
+                        src="/hiring-1977803.JPG"
                         alt="Image"
                         width={500}
                         height={100}
@@ -148,7 +148,7 @@ const HireTalentPage = () => {
                     </div>
                     <div className="w-full lg:w-[60%] flex justify-center items-center">
                         <Image
-                            src="/global expertise.JPG"
+                            src="/business-idea-660083.JPG"
                             alt="Image"
                             width={500}
                             height={500}
@@ -175,7 +175,7 @@ const HireTalentPage = () => {
             <section className="w-full flex lg:flex-row flex-col lg:p-10 p-5 gap-10">
                 <div className="w-full lg:w-[50%] flex flex-col gap-10">
                     <Image
-                        src="/team-meeting.png"
+                        src="/ai-generated-8999816_1280.JPG"
                         alt="Image"
                         width={500}
                         height={100}

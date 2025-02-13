@@ -12,11 +12,11 @@ const HireTalentPage = () => {
                         alt="Image"
                         width={500}
                         height={100}
-                        className="z-1 lg:hidden"
+                        className=" z-1 lg:hidden transition-transform duration-300 hover:scale-105"
                     />
                 </div>
                 <div className="w-full p-5">
-                    <h2 className="text-3xl lg:text-6xl font-semibold">Discover your <br/> <span className="text-blue-400">next hire !</span></h2>
+                    <h2 className="text-3xl lg:text-4xl font-semibold">Discover your <br /> <span className="text-blue-400">next hire !</span></h2>
                     <p className="text-2xl w-full lg:w-[40%] mt-10 leading-10">Explore recruiter-reviewed and AI-matched candidates, or share details about your open role to start hiring
                         today. <br /> <br /> <strong>The decision is yours.</strong></p>
                     <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row w-full items-center shadow-2xl p-5 lg:w-[55%] text-2xl mt-[100px] justify-between">
@@ -65,80 +65,86 @@ const HireTalentPage = () => {
                 <img src="/assets/Rectangle 3.png" alt="Rectangle 3" class="absolute right-[400px] top-[150px]" />
                 <img src="/assets/image.png" alt="Image" class="absolute right-[100px] top-[230px] z-1" /> */}
             </section>
-            <section className="w-full mt-5 lg:h-[100vh] lg:pl-[200px] flex flex-col-reverse lg:flex-row">
-                <div className="w-full lg:w-[40%] flex flex-col justify-center gap-10 p-5 lg:p-0">
-                    <hr className="w-[100px] h-[10px] bg-blue-400" />
-                    <h2 className="text-3xl lg:text-6xl leading-10">What makes <strong><span className="text-blue-400">KSVA Tech Solutions</span></strong> the best choice? </h2>
+            <section className="w-[90%] mx-auto mt-5 lg:h-[100vh] flex flex-col-reverse lg:flex-row">
+                <div className="w-full lg:w-[45%] flex flex-col justify-center gap-10 p-5 lg:p-0">
+                    <h2 className="text-3xl lg:text-4xl leading-10">What makes <strong><span className="text-blue-400">KSVA Tech Solutions</span></strong> the best choice? </h2>
                     <p className="text-2xl lg:text-[24px] leading-10">Explore the full potential of your candidates and employees with our all-in-one Tech Solution.</p>
                     <a href="#" className="text-2xl flex gap-5 items-center">See more information <i className="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div className="w-full lg:w-[60%]">
-                    {/* <img src="/assets/Capture.JPG" alt="Capture" class="h-full" /> */}
-                    <Image
-                        src="/4cards (Custom).JPG"
-                        alt="Image"
-                        width={500}
-                        height={100}
-                        className="h-full w-full"
-                    />
+                <div className="w-full lg:w-[50%] flex flex-col lg:flex-row lg:justify-between lg:flex-wrap pl-5 pt-5 rounded-[10px] bg-blue-100 p-5 lg:p-2">
+                    <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px]">
+                        <i className="fa-solid fa-crosshairs text-6xl w-max text-black bg-[#ECB4ED] p-3 rounded-[50%] "></i>
+                        <h3 className="text-[24px] font-[700]">Scale Teams <br /> with Ease</h3>
+                        <p className="text-[24px]">Effortlessly scale your teams to meet your goals.</p>
+                    </div>
+                    <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px]">
+                        <i className="fa-solid fa-people-group text-6xl w-max text-black bg-[#ACDBBE] p-3 rounded-[50%] "></i>
+                        <h3 className="text-[24px] font-[700]">Find Talent Matched <br/> to your Needs</h3>
+                        <p className="text-[24px]">Our AI, driven by success data, instantly finds top candidates for your roles.</p>
+                    </div>
+                    <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px]">
+                        <i className="fa-solid fa-user-pen text-6xl w-max text-black bg-[#B2D9F3] p-5 rounded-[50%] "></i>
+                        <h3 className="text-[24px] font-[700]">Get Dedicated, <br/> Personalized Support</h3>
+                        <p className="text-[24px]">We leverage market insights to understand your goals and guide you every step of the way.</p>
+                    </div>
+                    <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px] mt-10 lg:mt-0">
+                        <i className="fa-solid fa-hourglass-end text-6xl w-max text-black bg-[#D99C9D] py-7 px-10 rounded-[50%] "></i>
+                        <h3 className="text-[24px] font-[700]">Smarter and more <br/> Efficient</h3>
+                        <p className="text-[24px]">Experience the full potential of your candidates</p>
+                    </div>
                 </div>
             </section>
-            <section className="w-full flex flex-col lg:flex-row lg:h-[100vh]">
-                <div className="w-full mt-10 lg:mt-0 lg:w-[60%] h-full flex flex-col gap-10">
+            <section className="w-[90%] mx-auto flex flex-col lg:flex-row items-center mt-5">
+                <div className="relative w-full h-[400px] mt-10 lg:mt-0 rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                     <Image
                         src="/man-76202.jpg"
                         alt="Image"
-                        width={500}
-                        height={100}
-                        className="w-full"
+                        layout="fill"
+                        className="transition-transform duration-300 hover:scale-105"
                     />
                 </div>
-                <div className="w-full lg:w-[60%] flex flex-col justify-center gap-10 p-5">
-                    <hr className="w-[100px] h-[10px] bg-blue-400" />
-                    <h2 className="text-3xl lg:text-6xl">Explore a Samples of Our <span className="text-blue-400">Top Candidates</span></h2>
+                <div className="w-full lg:w-[50%] flex flex-col justify-center gap-10 p-5">
+                    <h2 className="text-3xl lg:text-4xl">Explore a Samples of Our <span className="text-blue-400">Top Candidates</span></h2>
                     <p className="text-2xl">Share your open role details and instantly view recruiter-assessed, AI-matched talent.</p>
                     <form className="flex flex-col gap-10">
                         <div className="flex gap-5 lg:flex-row flex-col">
-                            <p className="lg:text-2xl">I am looking for a</p>
+                            <p className="text-2xl">I am looking for a</p>
                             <div className="flex gap-3 items-center">
                                 <i className="fa-solid fa-magnifying-glass lg:text-[26px] "></i>
-                                <input required type="text" placeholder="Job Title" className="lg:text-[26px] px-1 lg:px-3 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
+                                <input required type="text" placeholder="Job Title" className="text-xl lg:text-[26px] px-1 lg:px-3 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
                             </div>
                         </div>
                         <div className="flex lg:flex-row flex-col gap-5">
-                            <p className="lg:text-2xl">Located In</p>
+                            <p className="text-2xl">Located In</p>
                             <div className="flex gap-3 items-center">
                                 <i className="fa-solid fa-location-dot lg:text-[26px] "></i>
-                                <input required type="text" placeholder="'Remote', City or ZIP" className="lg:text-[26px] lg:px-3 px-1 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
+                                <input required type="text" placeholder="'Remote', City or ZIP" className="text-xl lg:text-[26px] lg:px-3 px-1 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
                             </div>
                         </div>
                         <button type="submit" className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Preview Candidates</button>
                     </form>
                 </div>
             </section>
-            <section className="w-full flex lg:flex-row flex-col">
-                <div className="w-full lg:w-[70%] h-full flex flex-col gap-10">
+            <section className="w-[90%] mx-auto flex lg:flex-row-reverse flex-col lg:items-center mt-5">
+                <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                     <Image
                         src="/hiring-1977803.jpg"
                         alt="Image"
-                        width={500}
-                        height={100}
-                        className="w-full"
+                        layout="fill"
+                        className="transition-transform duration-300 hover:scale-105"
                     />
                 </div>
-                <div className="w-full lg:w-[60%] flex flex-col justify-center gap-10 p-5 lg:pt-40">
-                    <hr className="w-[100px] h-[10px] bg-blue-400" />
-                    <h2 className="text-3xl lg:text-6xl">Hire talent <br/> <span className="text-blue-400">that delivers</span></h2>
+                <div className="w-full lg:w-[50%] flex flex-col justify-center gap-10 p-5">
+                    <h2 className="text-3xl lg:text-4xl">Hire talent <br /> <span className="text-blue-400">that delivers</span></h2>
                     <p className="text-2xl leading-10">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
                     <button type="submit"
                         className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Find Your next Hire</button>
                 </div>
             </section>
-            <section className="w-full flex flex-col lg:p-10">
-                <div className="flex flex-col-reverse lg:flex-row">
+            <section className="w-[90%] mx-auto flex flex-col mt-5">
+                <div className="flex flex-col-reverse lg:flex-row-reverse">
                     <div className="w-full md:w-[50%] flex flex-col justify-center gap-10 lg:pt-10 p-5">
-                        <hr className="w-[100px] h-2 bg-blue-400" />
-                        <h2 className="text-3xl lg:text-6xl">Access global <br/><span className="text-blue-400">consulting expertise</span></h2>
+                        <h2 className="text-3xl lg:text-4xl">Access global <br /><span className="text-blue-400">consulting expertise</span></h2>
                         <p className="text-2xl leading-10">
                             Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
                         </p>
@@ -146,14 +152,12 @@ const HireTalentPage = () => {
                             Learn More
                         </button>
                     </div>
-                    <div className="w-full lg:w-[60%] flex justify-center items-center">
+                    <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                         <Image
                             src="/business-idea-660083.jpg"
                             alt="Image"
-                            width={500}
-                            height={500}
-                            layout="intrinsic"
-                            className="w-full h-full"
+                            layout="fill"
+                            className="transition-transform duration-300 hover:scale-105"
                         />
                     </div>
                 </div>
@@ -172,19 +176,17 @@ const HireTalentPage = () => {
                     </div>
                 </div>
             </section>
-            <section className="w-full flex lg:flex-row flex-col lg:p-10 p-5 gap-10">
-                <div className="w-full lg:w-[50%] flex flex-col gap-10">
+            <section className="w-[90%] mx-auto space-y-6 flex lg:flex-row-reverse flex-col lg:p-10 p-5 gap-10">
+                <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                     <Image
                         src="/ai-generated-8999816_1280.jpg"
                         alt="Image"
-                        width={500}
-                        height={100}
-                        className="w-full h-full rounded-b-[50px]"
+                        layout="fill"
+                        className="transition-transform duration-300 hover:scale-105"
                     />
                 </div>
                 <div className="w-full lg:w-[50%] flex flex-col justify-center gap-10">
-                    <hr className="w-[100px] h-[10px] bg-blue-400" />
-                    <h2 className="text-3xl lg:text-6xl">Hire the talent <br/> <span className="text-blue-400">you need</span></h2>
+                    <h2 className="text-3xl lg:text-4xl">Hire the talent <br /> <span className="text-blue-400">you need</span></h2>
                     <p className="text-2xl leading-10">Hire the talent you need to grow your business.Find skilled professionals who fit your vision.Build a strong team for lasting success!</p>
                     <button type="submit"
                         className="w-max rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Contact Us
@@ -215,7 +217,7 @@ const HireTalentPage = () => {
                         />
                         <h3 className="font-bold pl-10">Access exclusive talent</h3>
                         <p className="pl-10 pr-5 mt-5">Don't miss a beat with proven industry veterans.</p>
-                        <p className="mt-20 text-center font-extrabold text-[#3482A3] px-10">Hire Robert Half Employees</p>
+                        <p className="mt-20 text-center font-extrabold text-[#3482A3] px-10">Hire KSVA Employees</p>
                     </div>
                     <div className="pt-[50px] pb-[10px] text-[20px] relative w-[320px] bg-[#E3F1F4] rounded-[20px]">
                         <Image

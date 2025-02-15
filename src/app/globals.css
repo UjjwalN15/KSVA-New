@@ -97,3 +97,8 @@ body {
 .animate-scroll-right {
   animation: scroll-right 30s linear infinite;
 }
+
+/* Custom class to enforce width */
+.sm-w-full{
+  width: 95% !important;
+}

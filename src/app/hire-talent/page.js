@@ -1,5 +1,10 @@
 import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import React from 'react';
+import 'swiper/css'; // Core Swiper styles
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import SwiperComponent from '../../components/ui/swiper'
 
 
 const HireTalentPage = () => {
@@ -79,17 +84,17 @@ const HireTalentPage = () => {
                     </div>
                     <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px]">
                         <i className="fa-solid fa-people-group text-6xl w-max text-black bg-[#ACDBBE] p-3 rounded-[50%] "></i>
-                        <h3 className="text-[24px] font-[700]">Find Talent Matched <br/> to your Needs</h3>
+                        <h3 className="text-[24px] font-[700]">Find Talent Matched <br /> to your Needs</h3>
                         <p className="text-[24px]">Our AI, driven by success data, instantly finds top candidates for your roles.</p>
                     </div>
                     <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px]">
                         <i className="fa-solid fa-user-pen text-6xl w-max text-black bg-[#B2D9F3] p-5 rounded-[50%] "></i>
-                        <h3 className="text-[24px] font-[700]">Get Dedicated, <br/> Personalized Support</h3>
+                        <h3 className="text-[24px] font-[700]">Get Dedicated, <br /> Personalized Support</h3>
                         <p className="text-[24px]">We leverage market insights to understand your goals and guide you every step of the way.</p>
                     </div>
                     <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 h-[350px] mt-10 lg:mt-0">
                         <i className="fa-solid fa-hourglass-end text-6xl w-max text-black bg-[#D99C9D] py-7 px-10 rounded-[50%] "></i>
-                        <h3 className="text-[24px] font-[700]">Smarter and more <br/> Efficient</h3>
+                        <h3 className="text-[24px] font-[700]">Smarter and more <br /> Efficient</h3>
                         <p className="text-[24px]">Experience the full potential of your candidates</p>
                     </div>
                 </div>
@@ -259,7 +264,7 @@ const HireTalentPage = () => {
                     </div>
                 </div>
             </section>
-            <section className="lg:relative flex flex-col gap-10 w-full lg:h-[200vh] lg:py-0 lg:px-0 px-5 py-10 lg:mt-20">
+            {/* <section className="lg:relative flex flex-col gap-10 w-full lg:h-[200vh] lg:py-0 lg:px-0 px-5 py-10 lg:mt-20">
                 <img
                     src="/image 12.png"
                     alt="Image"
@@ -303,6 +308,19 @@ const HireTalentPage = () => {
                         <li>Locations</li>
                     </ul>
                 </div>
+            </section> */}
+            <section className="relative w-full h-[80vh] lg:my-10">
+                <SwiperComponent />
+                <div className="absolute top-0 left-[50%] translate-x-[-50%] w-[95%] lg:w-[31%] rounded-[50px] h-[600px] lg:h-full border-[10px] border-black">
+                </div>
+                <div className="absolute top-5 bg-black right-[50%] translate-x-[50%] w-[200px] lg:w-[10%] rounded-[50px] h-[20px] border-[10px] border-black"></div>
+            </section>
+            <section className="w-full bg-blue-400 ">
+                <img
+                    src="/last-image.JPG"
+                    alt="Image"
+                    className="w-auto mx-auto h-auto object-fill"
+                />
             </section>
         </ >
     );

@@ -5,6 +5,7 @@ import 'swiper/css'; // Core Swiper styles
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import SwiperComponent from '../../components/ui/swiper'
+import Scroller from '../../components/ui/scroller'
 
 
 const HireTalentPage = () => {
@@ -17,7 +18,7 @@ const HireTalentPage = () => {
                         alt="Image"
                         width={500}
                         height={100}
-                        className=" z-1 lg:hidden transition-transform duration-300 hover:scale-105"
+                        className="block z-1 lg:hidden transition-transform duration-300 hover:scale-105"
                     />
                 </div>
                 <div className="w-full p-5">
@@ -198,7 +199,7 @@ const HireTalentPage = () => {
                     </button>
                 </div>
             </section>
-            <section className="w-full mt-0 lg:mt-20 flex flex-col p-10 pt-[250px] gap-10">
+            {/* <section className="w-full mt-0 lg:mt-20 flex flex-col p-10 pt-[250px] gap-10">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-80 lg:gap-0">
                     <div className="pt-[50px] pb-[10px] text-[20px] relative w-full lg:w-[320px] bg-[#E3F1F4] rounded-[20px]">
                         <Image
@@ -263,14 +264,24 @@ const HireTalentPage = () => {
                         <p className="mt-20 text-center font-extrabold text-[#3482A3]">Find More Talent</p>
                     </div>
                 </div>
+            </section> */}
+            <section className="relative w-[95%] mx-auto h-[80vh] lg:my-10">
+                <SwiperComponent />
+                <div className="absolute top-0 left-[50%] translate-x-[-50%] w-full lg:w-[31%] lg:h-full h-[600px] bg-white rounded-[50px] border-[10px] border-black shadow-lg">
+                    {/* Phone Screen */}
+                </div>
+
+                {/* Top Bar (Camera/Speaker) */}
+                <div className="absolute top-5 bg-black right-[50%] translate-x-[50%] w-[200px] lg:w-[10%] rounded-[50px] h-[20px] border-[5px] border-black shadow-md">
+                </div>
             </section>
-            {/* <section className="lg:relative flex flex-col gap-10 w-full lg:h-[200vh] lg:py-0 lg:px-0 px-5 py-10 lg:mt-20">
-                <img
+            {/* <section className="flex flex-col lg:flex-row gap-10 w-[95%] mx-auto lg:py-10 lg:px-0 px-5 py-10 lg:mt-20"> */}
+            {/* <img
                     src="/image 12.png"
                     alt="Image"
                     className="hidden lg:block w-full h-full object-cover"
-                />
-                <div className="z-10 lg:absolute lg:top-[170px] lg:left-[80px] bg-[#FFF0E8] lg:h-[340px] py-5 lg:py-0 w-full lg:w-[480px] text-[24px] lg:text-[32px] font-[700] text-center rounded-[30px] lg:rotate-[11deg] p-5">
+                /> */}
+            {/* <div className="bg-[#FFF0E8] lg:h-[300px] lg:py-10 w-full lg:w-[480px] text-2xl font-[700] text-center rounded-[30px] p-5">
                     <h3 className="mb-10">Services</h3>
                     <ul className="list-disc list-inside mx-auto">
                         <li>IT Consulting</li>
@@ -280,7 +291,7 @@ const HireTalentPage = () => {
                         <li>Cyber Security</li>
                     </ul>
                 </div>
-                <div className="z-10 lg:absolute lg:top-[310px] lg:right-[45px] bg-[#E0E6FE] lg:h-[365px] py-5 lg:py-0 w-full lg:w-[480px] text-[24px] lg:text-[32px] font-[700] text-center rounded-[30px] lg:rotate-[-11deg] p-5">
+                <div className="bg-[#E0E6FE] lg:h-[300px] py-5 lg:py-10 w-full lg:w-[480px] text-2xl font-[700] text-center rounded-[30px] p-5">
                     <h3 className="mb-10 lg:mb-5">RESOURCES & TOOLS</h3>
                     <ul className="list-disc list-inside mx-auto">
                         <li>Discover Insights</li>
@@ -291,7 +302,7 @@ const HireTalentPage = () => {
                         <li>Contact Us</li>
                     </ul>
                 </div>
-                <div className="z-10 lg:absolute lg:bottom-[300px] lg:left-[150px] bg-[#F3E0FE] lg:h-[370px] py-5 lg:py-0 w-full lg:w-[480px] text-[24px] lg:text-[32px] font-[700] text-center rounded-[30px] lg:rotate-[11deg] p-5">
+                <div className="bg-[#F3E0FE] lg:h-[300px] py-5 lg:py-10 w-full lg:w-[480px] text-2xl font-[700] text-center rounded-[30px] p-5">
                     <h3 className="mb-10">AREAS OF EXPERTISE</h3>
                     <ul className="list-disc list-inside mx-auto">
                         <li>Finance</li>
@@ -300,7 +311,7 @@ const HireTalentPage = () => {
                         <li>Artificial Intelligence</li>
                     </ul>
                 </div>
-                <div className="z-10 lg:absolute lg:bottom-[55px] lg:right-[35px] bg-[#FFEEE4] lg:h-[365px] py-5 lg:py-0 w-full lg:w-[450px] text-[24px] lg:text-[32px] font-[700] text-center rounded-[30px] lg:rotate-[-8deg] p-5">
+                <div className="bg-[#FFEEE4] lg:h-[300px] py-5 lg:py-10 w-full lg:w-[450px] text-2xl font-[700] text-center rounded-[30px] p-5">
                     <h3 className="mb-10">ABOUT</h3>
                     <ul className="list-disc list-inside mx-auto">
                         <li>About KSVA</li>
@@ -309,19 +320,14 @@ const HireTalentPage = () => {
                     </ul>
                 </div>
             </section> */}
-            <section className="relative w-full h-[80vh] lg:my-10">
-                <SwiperComponent />
-                <div className="absolute top-0 left-[50%] translate-x-[-50%] w-[95%] lg:w-[31%] rounded-[50px] h-[600px] lg:h-full border-[10px] border-black">
-                </div>
-                <div className="absolute top-5 bg-black right-[50%] translate-x-[50%] w-[200px] lg:w-[10%] rounded-[50px] h-[20px] border-[10px] border-black"></div>
-            </section>
-            <section className="w-full bg-blue-400 ">
+            {/* <section className="w-full bg-blue-400 ">
                 <img
                     src="/last-image.JPG"
                     alt="Image"
                     className="w-auto mx-auto h-auto object-fill"
                 />
-            </section>
+            </section> */}
+            <Scroller />
         </ >
     );
 }

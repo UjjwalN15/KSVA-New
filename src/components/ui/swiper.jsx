@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay
 
 // Import Swiper styles
 import 'swiper/css';
@@ -25,11 +25,15 @@ const SwiperComponent = () => {
                     slideShadows: true,
                 }}
                 loop={true}
-                modules={[EffectCoverflow, Pagination]}
+                autoplay={{
+                    delay: 3000, // Autoplay every 5 seconds
+                    disableOnInteraction: false, // Keeps autoplay even after user interaction
+                }}
+                modules={[EffectCoverflow, Pagination, Autoplay]} // Include Autoplay module
                 className="h-full !pt-16"
                 breakpoints={{
                     0: {
-                        slidesPerView: 1, // Ensure 1 slide for small screens
+                        slidesPerView: 3, // Ensure 1 slide for small screens
                         spaceBetween: 50,  // Reduce spacing for small devices
                     },
                     768: {
@@ -38,11 +42,11 @@ const SwiperComponent = () => {
                     },
                     1024: {
                         slidesPerView: 3, // 3 slides for larger screens
-                        spaceBetween: 100,
+                        spaceBetween: 150,
                     },
                 }}
             >
-
+                {/* Swiper slides */}
                 <SwiperSlide className="w-full lg:p-0 p-10 pt-0 mx-auto">
                     <div className="text-center flex flex-col gap-3 sm:gap-4 md:gap-3">
                         {/* Title */}
@@ -67,7 +71,7 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-gray-300 p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Search Salary
                         </a>
@@ -97,7 +101,7 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-gray-300 p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Search Salary
                         </a>
@@ -127,7 +131,7 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-gray-300 p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Search Salary
                         </a>
@@ -157,7 +161,7 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-gray-300 p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Search Salary
                         </a>
@@ -187,7 +191,7 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-gray-300 p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Search Salary
                         </a>

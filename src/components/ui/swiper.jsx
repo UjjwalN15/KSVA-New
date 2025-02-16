@@ -33,7 +33,7 @@ const SwiperComponent = () => {
                 className="h-full !pt-16"
                 breakpoints={{
                     0: {
-                        slidesPerView: 3, // Ensure 1 slide for small screens
+                        slidesPerView: 1, // Ensure 1 slide for small screens
                         spaceBetween: 50,  // Reduce spacing for small devices
                     },
                     768: {

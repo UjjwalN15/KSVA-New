@@ -28,7 +28,7 @@ const Scroller = () => {
             <div className="scroller__inner">
                 <div className="flex gap-5 w-full">
                     <div className="h-[400px] lg:h-[350px] flex flex-col gap-5 !w-[500px] lg:w-[400px] text-2xl font-[700] text-center">
-                        <div className="relative h-[90%] w-full">
+                        <div className="relative h-[90%] w-[105%]">
                             {/* Background Layers */}
                             <div className="absolute bottom-0 left-0 h-[90%] w-[90%] rounded-[20px]  bg-[#8D65C5] bg-opacity-40"></div>
                             <div className="absolute bottom-3 left-3 h-[90%] w-[90%] rounded-[20px]  bg-[#ECB4ED] bg-opacity-40"></div>

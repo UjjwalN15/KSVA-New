@@ -14,7 +14,7 @@ const HireTalentPage = () => {
             <section className="flex flex-col gap-15 relative lg:pl-[200px] lg:pt-[100px] w-full lg:h-[110vh]">
                 <div>
                     <Image
-                        src="/Capture.JPG"
+                        src="/capture.JPG"
                         alt="Image"
                         width={500}
                         height={100}

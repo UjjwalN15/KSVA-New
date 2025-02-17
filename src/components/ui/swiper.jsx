@@ -26,8 +26,9 @@ const SwiperComponent = () => {
                 }}
                 loop={true}
                 autoplay={{
-                    delay: 3000, // Autoplay every 5 seconds
+                    delay: 5000, // Autoplay every 5 seconds
                     disableOnInteraction: false, // Keeps autoplay even after user interaction
+                    speed:30000
                 }}
                 modules={[EffectCoverflow, Pagination, Autoplay]} // Include Autoplay module
                 className="h-full !pt-16"

@@ -14,11 +14,11 @@ const HireTalentPage = () => {
             <section className="flex flex-col gap-15 relative lg:pl-[200px] lg:pt-[100px] w-full lg:h-[110vh]">
                 <div>
                     <Image
-                        src="/capture.JPG"
+                        src="/Capture.JPG"
                         alt="Image"
                         width={500}
                         height={100}
-                        className="block h-[40vh] z-1 lg:hidden transition-transform duration-300 hover:scale-105"
+                        className="block z-10 lg:hidden transition-transform duration-300 hover:scale-105"
                     />
                 </div>
                 <div className="w-full p-5">

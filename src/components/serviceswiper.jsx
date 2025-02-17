@@ -77,7 +77,6 @@ const ServicesSwiper = () => {
             </div>
         );
     };
-
     return (
         <div style={{ width: "100%", height: "500px" }}>
             <Swiper
@@ -86,7 +85,6 @@ const ServicesSwiper = () => {
                 className="mySwiper"
                 spaceBetween={30}
                 slidesPerView={3} // 3 slides per page
-                
                 loop={true} // Enables looping of slides
                 breakpoints={{
                     320: {
@@ -112,6 +110,7 @@ const ServicesSwiper = () => {
                 ))}
             </Swiper>
         </div>
+
     );
 };
 

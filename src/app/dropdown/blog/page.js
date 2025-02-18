@@ -88,18 +88,18 @@ export default function BlogLanding() {
   ];
   const BlogCard = ({ title, description, date, image }) => {
     return (
-      <div className="flex flex-col gap-5 w-[calc(100%/3.2)] p-5">
+      <div className="flex flex-col gap-5 w-full lg:w-[calc(100%/3.2)] p-5">
         <Image
           src={image}
           alt="Blog Image"
           width={500}
           height={100}
-          className="h-[400px] w-full rounded-[30px]"
+          className="h-[200px] lg:h-[400px] w-full rounded-[30px]"
         />
-        <h2 className="text-[20px] font-[700]">{title}</h2>
-        <p className="text-[20px]">{description}</p>
+        <h2 className="text-[18px] lg:text-[20px] font-[700]">{title}</h2>
+        <p className="text-[18px] lg:text-[20px]">{description}</p>
         <ul className="list-disc">
-          <li className="text-[20px] text-left list-inside font-[900]">{date}</li>
+          <li className="text-[18px] lg:text-[20px] text-left list-inside font-[900]">{date}</li>
         </ul>
       </div>
     );
@@ -275,11 +275,11 @@ export default function BlogLanding() {
 
     <>
       <div className="py-16 w-[95%] mx-auto">
-        <div className="flex p-10 h-[90vh] w-full bg-[url(/blog-bg.png)] rounded-[50px] bg-cover bg-center bg-no-repeat bg-blue-300 bg-blend-multiply">
+        <div className="flex p-10 h-[70vh] lg:h-[90vh] w-full bg-[url(/blog-bg.png)] rounded-[50px] lg:bg-cover bg-center bg-no-repeat bg-[#aaaaee] bg-blend-multiply">
           <div className="flex flex-col gap-5 self-end text-left text-white">
-            <h3 className="text-[24px] font-[900] ">Featured</h3>
-            <h3 className="text-[36px] font-[900]">When is AI going to <br /> replace us?</h3>
-            <p className="text-[24px] font-[900]">Artificial Intelligence cannot generate novelty. To date, it draws on preexisting data and re-arranges it to produce something that appears new. To some, this is comforting. They say it will prevent us from being replaced. </p>
+            <h3 className="text[20px] lg:text-[24px] font-[900] ">Featured</h3>
+            <h3 className="text-[18px] lg:text-[36px] font-[900]">When is AI going to <br /> replace us?</h3>
+            <p className="text-[18px] lg:text-[24px] font-[900]">Artificial Intelligence cannot generate novelty. To date, it draws on preexisting data and re-arranges it to produce something that appears new. To some, this is comforting. They say it will prevent us from being replaced. </p>
           </div>
         </div>
         <div className="mt-10">

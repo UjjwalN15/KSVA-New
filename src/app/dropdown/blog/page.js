@@ -91,6 +91,7 @@ export default function BlogLanding() {
       description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
       date: "15 Jan,2025",
       image: "/blog-image-6.png",
+      link: "/dropdown/blog/AiReplace"
     },
   ];
   const BlogCard = ({ title, description, date, image }) => {

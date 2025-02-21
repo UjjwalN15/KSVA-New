@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
+import Link from 'next/link';
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -49,6 +51,7 @@ export default function BlogLanding() {
       description: "Marketing budgets have fallen in recent years, but expectations continue to rise.",
       date: "15 Jan, 2025",
       image: "/blog-image-1.png",
+      link: "/dropdown/blog/DigitalMarketing"
     },
     {
       id: 2,
@@ -56,6 +59,7 @@ export default function BlogLanding() {
       description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
       date: "15 Jan,2025",
       image: "/blog-image-2.png",
+      link: "/dropdown/blog/ContentMarketing"
     },
     {
       id: 3,
@@ -63,6 +67,7 @@ export default function BlogLanding() {
       description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
       date: "15 Jan,2025",
       image: "/blog-image-3.png",
+      link: "/dropdown/blog/Ai"
     },
     {
       id: 4,
@@ -70,6 +75,7 @@ export default function BlogLanding() {
       description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
       date: "15 Jan,2025",
       image: "/blog-image-4.png",
+      link: "/dropdown/blog/searchAI"
     },
     {
       id: 5,
@@ -77,6 +83,7 @@ export default function BlogLanding() {
       description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
       date: "15 Jan,2025",
       image: "/blog-image-5.png",
+      link: "/dropdown/blog/DigitalSuccess"
     },
     {
       id: 6,
@@ -88,7 +95,7 @@ export default function BlogLanding() {
   ];
   const BlogCard = ({ title, description, date, image }) => {
     return (
-      <div className="flex flex-col gap-5 w-full lg:w-[calc(100%/3.2)] p-5">
+      <div className="flex flex-col gap-5 w-full p-5">
         <Image
           src={image}
           alt="Blog Image"
@@ -286,15 +293,17 @@ export default function BlogLanding() {
           <h2 className="text-[32px] font-[600] pl-10">Recent Blog Posts</h2>
           <div className="flex flex-wrap gap-10 justify-center">
             {blogs.map((blog) => (
-              <BlogCard
-                key={blog.id}
-                title={blog.title}
-                description={blog.description}
-                date={blog.date}
-                image={blog.image}
-              />
+              <a href={blog.link} key={blog.id} className="w-[400px]">
+                <BlogCard
+                  title={blog.title}
+                  description={blog.description}
+                  date={blog.date}
+                  image={blog.image}
+                />
+              </a>
             ))}
           </div>
+
         </div>
       </div>
     </>

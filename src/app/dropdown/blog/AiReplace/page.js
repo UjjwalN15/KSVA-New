@@ -6,7 +6,7 @@ import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
 const AiReplace = () => {
     return (
-        <div className="w-[95%] mx-auto p-5 pb-10">
+        <div className="max-w-7xl mx-auto p-5 pb-10">
             <section className="bg-blue-400 flex w-full h-[90vh] bg-[url(/aireplace-1.png)] rounded-[50px] bg-cover bg-center bg-no-repeat">
                 <div className="justify-self-center mx-auto self-end text-center pb-10">
                     <h3 className="text-[24px] font-[800]">2 Feb, 2025</h3>

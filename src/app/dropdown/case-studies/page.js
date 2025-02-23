@@ -227,7 +227,7 @@ const CaseStudies = () => {
             </svg>
           </div>
         </section>
-        <section className="mt-[10vh] lg:mt-[35vh]">
+        <section className="mt-[10vh] lg:mt-[35vh] max-w-7xl mx-auto">
           <h2 className="text-[32px] lg:text-[64px] font-[600] text-center">Featured <span className="text-blue-400">Case Studies</span></h2>
           <CaseStudySwiper />
         </section>
@@ -236,7 +236,7 @@ const CaseStudies = () => {
             <h2 className="text-[24px] lg:text-[48px] font-[700] lg:text-center">Attract more leads, convert more customers, and scale your business with KSVA.</h2>
             <p className="text-[18px] lg:text-[24px] text-center mt-10">Our expert-driven digital solutions help e-commerce brands enhance their online presence, optimize conversions, and drive sustainable growth.</p>
           </div>
-          <div className="flex flex-wrap gap-5 justify-between">
+          <div className="max-w-7xl mx-auto flex flex-wrap gap-5 justify-between">
             {Percentage.map((percentage, index) => (
               <div key={index} className="lg:w-[calc(100%/3.3)] p-5 rounded-lg">
                 <Image

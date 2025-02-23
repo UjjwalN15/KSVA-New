@@ -55,42 +55,42 @@ export default function BlogLanding() {
     },
     {
       id: 2,
-      title: "How to Plan a Digital Marketing Budget",
-      description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
+      title: "The Future of Content Marketing: Emerging Trends to Watch",
+      description: "Over the years, content marketing has gone through several transformations due to advancements in technology, changes in the ways people behave and the emergence of different types of digital platforms. ",
       date: "15 Jan,2025",
-      image: "/blog-image-2.png",
+      image: "/cm-2.png",
       link: "/dropdown/blog/ContentMarketing"
     },
     {
       id: 3,
-      title: "How to Plan a Digital Marketing Budget",
-      description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
+      title: "How AI is Revolutionizing Website Development: Trends and Tools for 2025",
+      description: " From design automation to personalized content, AI-driven tools are making websites smarter, faster, and more engaging.",
       date: "15 Jan,2025",
-      image: "/blog-image-3.png",
+      image: "/ai-1.png",
       link: "/dropdown/blog/Ai"
     },
     {
       id: 4,
-      title: "How to Plan a Digital Marketing Budget",
-      description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
+      title: "How Search Algorithms Are Changing and What It Means for Your Website",
+      description: "Search engines have evolved from simple keyword-matching systems to sophisticated platforms capable of understanding context, intent, and semantics.",
       date: "15 Jan,2025",
-      image: "/blog-image-4.png",
+      image: "/sai-1.png",
       link: "/dropdown/blog/searchAI"
     },
     {
       id: 5,
-      title: "How to Plan a Digital Marketing Budget",
-      description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
+      title: "Why Every Business Needs a Website: The Role of UX, SEO & AI in Digital Success",
+      description: "In today's digital era, establishing a robust online presence is essential for businesses of all sizes. A well-designed website serves as the cornerstone of this presence, acting as a virtual storefront that operates 24/7, providing information, facilitating transactions, and engaging customers.",
       date: "15 Jan,2025",
-      image: "/blog-image-5.png",
+      image: "/ds-1.png",
       link: "/dropdown/blog/DigitalSuccess"
     },
     {
       id: 6,
-      title: "How to Plan a Digital Marketing Budget",
-      description: "Marketing budgets have fallen in recent years, but expectations continue to rise. ",
+      title: "When is AI going to replace us?",
+      description: "Artificial Intelligence is a subfield of computer science that focuses on creating intelligent agents capable of performing tasks that would typically require human levels of intelligence.",
       date: "15 Jan,2025",
-      image: "/blog-image-6.png",
+      image: "/aireplace-1.png",
       link: "/dropdown/blog/AiReplace"
     },
   ];
@@ -282,8 +282,8 @@ export default function BlogLanding() {
     // </div>
 
     <>
-      <div className="py-16 w-[95%] mx-auto">
-        <div className="flex p-10 h-[70vh] lg:h-[90vh] w-full bg-[url(/blog-bg.png)] rounded-[50px] lg:bg-cover bg-center bg-no-repeat bg-[#aaaaee] bg-blend-multiply">
+      <div className="pb-5 max-w-7xl mx-auto">
+        <div className="flex p-10 h-[70vh] lg:h-[90vh] mx-auto w-[95%] lg:w-full bg-[url(/blog-bg.png)] rounded-[50px] lg:bg-cover bg-center bg-no-repeat bg-[#aaaaee] bg-blend-multiply">
           <div className="flex flex-col gap-5 self-end text-left text-white">
             <h3 className="text[20px] lg:text-[24px] font-[900] ">Featured</h3>
             <h3 className="text-[18px] lg:text-[36px] font-[900]">When is AI going to <br /> replace us?</h3>

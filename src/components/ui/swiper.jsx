@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay
 
@@ -28,7 +28,7 @@ const SwiperComponent = () => {
                 autoplay={{
                     delay: 5000, // Autoplay every 5 seconds
                     disableOnInteraction: false, // Keeps autoplay even after user interaction
-                    speed:30000
+                    speed: 30000
                 }}
                 modules={[EffectCoverflow, Pagination, Autoplay]} // Include Autoplay module
                 className="h-full !pt-16"
@@ -54,11 +54,14 @@ const SwiperComponent = () => {
                         <h3 className="text-xl lg:text-[24px]">Know How Much to Pay</h3>
 
                         {/* Image */}
-                        <img
-                            src="https://swiperjs.com/demos/images/nature-2.jpg"
+                        {/* <img
+                            src="/image 10.png"
                             alt="nature-2"
                             className="w-full h-[200px] sm:h-[250px] lg:h-[200px] object-cover"
-                        />
+                        /> */}
+                        <div className="relative mx-auto w-full h-[200px]">
+                            <Image src="/image 10.png" alt="Image" layout="fill" className="w-full h-full" />
+                        </div>
 
                         {/* Subtitle */}
                         <h3 className="text-xl lg:text-[20px] font-bold">Stay Competitive with Our Salary Guide</h3>
@@ -81,17 +84,15 @@ const SwiperComponent = () => {
                 <SwiperSlide className="w-full lg:p-0 p-10 pt-0 mx-auto">
                     <div className="text-center flex flex-col gap-3 sm:gap-4 md:gap-3">
                         {/* Title */}
-                        <h3 className="text-xl lg:text-[24px]">Know How Much to Pay</h3>
+                        <h3 className="text-xl lg:text-[24px]">Access exclusive talent</h3>
 
                         {/* Image */}
-                        <img
-                            src="https://swiperjs.com/demos/images/nature-2.jpg"
-                            alt="nature-2"
-                            className="w-full h-[200px] sm:h-[250px] lg:h-[200px] object-cover"
-                        />
+                        <div className="relative mx-auto w-full h-[200px]">
+                            <Image src="/image 8.png" alt="Image" layout="fill" className="w-full h-full" />
+                        </div>
 
                         {/* Subtitle */}
-                        <h3 className="text-xl lg:text-[20px] font-bold">Stay Competitive with Our Salary Guide</h3>
+                        <h3 className="text-xl lg:text-[20px] font-bold">Don't miss a beat with proven industry veterans.</h3>
 
                         {/* Description */}
                         <p className="text-[12px] lg:text-[16px] tracking-wide">
@@ -102,26 +103,24 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
-                            Search Salary
+                            Hire KSVA Tech Solutions Employees
                         </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="w-full lg:p-0 p-10 pt-0 mx-auto">
                     <div className="text-center flex flex-col gap-3 sm:gap-4 md:gap-3">
                         {/* Title */}
-                        <h3 className="text-xl lg:text-[24px]">Know How Much to Pay</h3>
+                        <h3 className="text-xl lg:text-[24px]">What jobs are in demand?</h3>
 
                         {/* Image */}
-                        <img
-                            src="https://swiperjs.com/demos/images/nature-2.jpg"
-                            alt="nature-2"
-                            className="w-full h-[200px] sm:h-[250px] lg:h-[200px] object-cover"
-                        />
+                        <div className="relative mx-auto w-full h-[200px]">
+                            <Image src="/image 7.png" alt="Image" layout="fill" className="w-full h-full" />
+                        </div>
 
                         {/* Subtitle */}
-                        <h3 className="text-xl lg:text-[20px] font-bold">Stay Competitive with Our Salary Guide</h3>
+                        <h3 className="text-xl lg:text-[20px] font-bold">Stay current on the latest hiring & employment trends</h3>
 
                         {/* Description */}
                         <p className="text-[12px] lg:text-[16px] tracking-wide">
@@ -132,26 +131,24 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
-                            Search Salary
+                            Access Report 
                         </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="w-full lg:p-0 p-10 pt-0 mx-auto">
                     <div className="text-center flex flex-col gap-3 sm:gap-4 md:gap-3">
                         {/* Title */}
-                        <h3 className="text-xl lg:text-[24px]">Know How Much to Pay</h3>
+                        <h3 className="text-xl lg:text-[24px]">Onboard talent in a flash</h3>
 
                         {/* Image */}
-                        <img
-                            src="https://swiperjs.com/demos/images/nature-2.jpg"
-                            alt="nature-2"
-                            className="w-full h-[200px] sm:h-[250px] lg:h-[200px] object-cover"
-                        />
+                        <div className="relative mx-auto w-full h-[200px]">
+                            <Image src="/image 9.png" alt="Image" layout="fill" className="w-full h-full" />
+                        </div>
 
                         {/* Subtitle */}
-                        <h3 className="text-xl lg:text-[20px] font-bold">Stay Competitive with Our Salary Guide</h3>
+                        <h3 className="text-xl lg:text-[20px] font-bold">Got a fire drill? Find the talent you need, now.</h3>
 
                         {/* Description */}
                         <p className="text-[12px] lg:text-[16px] tracking-wide">
@@ -162,26 +159,24 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
-                            Search Salary
+                            Hire Contract Talent
                         </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="w-full lg:p-0 p-10 pt-0 mx-auto">
                     <div className="text-center flex flex-col gap-3 sm:gap-4 md:gap-3">
                         {/* Title */}
-                        <h3 className="text-xl lg:text-[24px]">Know How Much to Pay</h3>
+                        <h3 className="text-xl lg:text-[24px]">Remote staffing solutions</h3>
 
                         {/* Image */}
-                        <img
-                            src="https://swiperjs.com/demos/images/nature-2.jpg"
-                            alt="nature-2"
-                            className="w-full h-[200px] sm:h-[250px] lg:h-[200px] object-cover"
-                        />
+                        <div className="relative mx-auto w-full h-[200px]">
+                            <Image src="/imagelast.png" alt="Image" layout="fill" className="w-full h-full" />
+                        </div>
 
                         {/* Subtitle */}
-                        <h3 className="text-xl lg:text-[20px] font-bold">Stay Competitive with Our Salary Guide</h3>
+                        <h3 className="text-xl lg:text-[20px] font-bold">Find talents that's ready to work from anywhere</h3>
 
                         {/* Description */}
                         <p className="text-[12px] lg:text-[16px] tracking-wide">
@@ -192,9 +187,9 @@ const SwiperComponent = () => {
                         <a
                             href="#"
                             title="Search Salary"
-                            className="!w-full bg-[#D9D9D9] p-3 mt-10 rounded-[20px] text-sm lg:text-[24px]"
+                            className="!w-full bg-[#D9D9D9] p-3 mt-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
-                            Search Salary
+                            Find More Talent
                         </a>
                     </div>
                 </SwiperSlide>

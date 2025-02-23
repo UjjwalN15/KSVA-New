@@ -86,12 +86,12 @@ const resources = [
     description: "Real-world examples of our success",
     image: "/case.svg",
   },
-  {
-    title: "Whitepapers",
-    href: "/dropdown/whitepapers",
-    description: "In-depth analysis and research",
-    image: "/paper.svg",
-  },
+  // {
+  //   title: "Whitepapers",
+  //   href: "/dropdown/whitepapers",
+  //   description: "In-depth analysis and research",
+  //   image: "/paper.svg",
+  // },
   {
     title: "FAQ",
     href: "/dropdown/faq",

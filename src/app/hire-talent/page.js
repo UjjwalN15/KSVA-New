@@ -71,13 +71,13 @@ const HireTalentPage = () => {
                 <img src="/assets/Rectangle 3.png" alt="Rectangle 3" class="absolute right-[400px] top-[150px]" />
                 <img src="/assets/image.png" alt="Image" class="absolute right-[100px] top-[230px] z-1" /> */}
             </section>
-            <section className="w-[90%] mx-auto mt-5 lg:h-[100vh] flex flex-col-reverse lg:flex-row">
+            <section className="max-w-7xl mx-auto mt-5 lg:h-[100vh] flex flex-col-reverse lg:flex-row">
                 <div className="w-full lg:w-[45%] flex flex-col justify-center gap-10 p-5 lg:p-0">
                     <h2 className="text-2xl lg:text-4xl leading-10">What makes <strong><span className="text-blue-400">KSVA Tech Solutions</span></strong> the best choice? </h2>
                     <p className="text-[18px] lg:text-[24px] leading-10">Explore the full potential of your candidates and employees with our all-in-one Tech Solution.</p>
                     <a href="#" className="text-[18px] flex gap-5 items-center">See more information <i className="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div className="w-full lg:w-[50%] flex flex-col lg:flex-row lg:justify-between lg:flex-wrap pl-5 pt-5 rounded-[10px] bg-blue-100 p-3 lg:p-5">
+                <div className="w-full lg:w-[50%] flex flex-col lg:flex-row lg:justify-between lg:flex-wrap pl-5 pt-5 rounded-[10px] p-3 lg:p-5">
                     <div className="w-full lg:w-[calc(100%/2.1)] flex flex-col gap-5 lg:h-[350px] pb-5 lg:pb-0">
                         <i className="text-2xl fa-solid fa-crosshairs lg:text-6xl w-max text-black bg-[#ECB4ED] p-3 rounded-[50%] "></i>
                         <h3 className="text-[24px] font-[700]">Scale Teams <br /> with Ease</h3>
@@ -100,7 +100,7 @@ const HireTalentPage = () => {
                     </div>
                 </div>
             </section>
-            <section className="w-[90%] mx-auto flex flex-col lg:flex-row items-center mt-5">
+            <section className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center mt-5">
                 <div className="relative w-full h-[400px] mt-10 lg:mt-0 rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                     <Image
                         src="/man-76202.jpg"
@@ -131,7 +131,7 @@ const HireTalentPage = () => {
                     </form>
                 </div>
             </section>
-            <section className="w-[90%] mx-auto flex lg:flex-row-reverse flex-col lg:items-center mt-5">
+            <section className="max-w-7xl mx-auto flex lg:flex-row-reverse flex-col lg:items-center mt-5">
                 <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                     <Image
                         src="/hiring-1977803.jpg"
@@ -147,7 +147,7 @@ const HireTalentPage = () => {
                         className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Find Your next Hire</button>
                 </div>
             </section>
-            <section className="w-[90%] mx-auto flex flex-col mt-5">
+            <section className="max-w-7xl mx-auto flex flex-col mt-5">
                 <div className="flex flex-col-reverse lg:flex-row-reverse">
                     <div className="w-full md:w-[50%] flex flex-col justify-center gap-10 lg:pt-10 p-5">
                         <h2 className="text-2xl lg:text-4xl">Access global <br /><span className="text-blue-400">consulting expertise</span></h2>

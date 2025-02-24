@@ -28,13 +28,13 @@ const HireTalentPage = () => {
                     <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row w-full items-center shadow-2xl p-5 lg:w-[55%] text-xl lg:text-2xl mt-[100px] justify-between">
                         <div className="flex items-center gap-3 pb-[10px] pt-[10px] pr-[20px] lg:border-r-2">
                             <i className="fa-solid fa-arrow-pointer"></i>
-                            <p>Preview Candidates</p>
+                            <a href="/hire-talent/PreviewCandidates" alt="Preview Candidates">Preview Candidates</a>
                         </div>
                         <div className="flex items-center gap-3 pt-[10px] pb-[10px] pl-[10px]">
                             <i className="fa-brands fa-hire-a-helper"></i>
-                            <p>Hire now</p>
+                            <a href="/hire-talent/HireNow" alt="Hire Now">Hire now</a>
                         </div>
-                        <a href="#" className="py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Contact Us</a>
+                        <a href="/hire-talent/ContactUs" className="py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Contact Us</a>
                     </div>
                 </div>
                 <div className="hidden lg:block">

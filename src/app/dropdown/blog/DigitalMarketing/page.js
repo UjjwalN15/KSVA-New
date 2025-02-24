@@ -164,7 +164,7 @@ const DigitalMarketing = () => {
                 <section className="w-full h-[50vh] flex lg:flex-row flex-col p-5">
                     <div className="flex flex-col justify-between w-full lg:w-[50%] h-full">
                         <BlogParagraph paragraph={"Jan 31, 2025"} className="text-[20px] font-bold" />
-                        <BlogHeading heading={"How to Plan a Digital Marketing Budget"} />
+                        <BlogHeading className="text-[52px]" heading={"How to Plan a Digital Marketing Budget"} />
                         <BlogParagraph paragraph={"by KSVA Tech Solutions"} className="text-[20px] font-bold" />
                     </div>
                     <div className="relative w-full lg:w-[30%] h-full">
@@ -187,7 +187,7 @@ const DigitalMarketing = () => {
                 </section>
                 <section className="mt-10">
                     <div className="flex flex-col gap-10 p-5">
-                        <BlogHeading heading={"How have marketing budgets changed?"} />
+                        <BlogHeading className="text-[52px]" heading={"How have marketing budgets changed?"} />
                         <BlogParagraph paragraph={"Gartner’s CMO survey revealed that marketing budgets dropped from 9.1% to 7.7% of overall company revenue in 2024, a decrease of 15%."} />
                         <BlogParagraph paragraph={"This decline is in contrast to 2020 when marketing budgets were 11% of revenue with a significant dip to 6.4% in the height of the Covid-19 pandemic in 2021. This figure rose to over 9% in 2022 and 2023 but saw a notable decrease in 2024 to 7.7%."} />
                     </div>
@@ -209,7 +209,7 @@ const DigitalMarketing = () => {
                 </section>
                 <section className="mt-10 pb-[30px]">
                     <div className="flex flex-col gap-10 p-5">
-                        <BlogHeading heading={"5 Steps to Mark Your Digital Marketing Budget"} />
+                        <BlogHeading className="text-[52px]" heading={"5 Steps to Mark Your Digital Marketing Budget"} />
                         <BlogParagraph paragraph={"The key to making the most of your budget is having a well-structured plan that aligns with both your department and business objectives."} />
                         <BlogParagraph paragraph={"This requires evaluating past marketing performance and analyzing data to identify the most effective channels. By doing so, you can allocate your budget strategically—focusing on areas that drive revenue while also achieving key goals like increasing brand awareness or improving conversion rates."} />
                         <BlogParagraph paragraph={"Now, let’s explore five essential steps to creating a strong and practical marketing budget."} />

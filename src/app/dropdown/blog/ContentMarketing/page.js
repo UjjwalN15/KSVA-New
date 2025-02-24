@@ -214,7 +214,7 @@ const ContentMarketing = () => {
                     <div className="flex lg:flex-row flex-col-reverse w-full h-full">
                         <div className="w-full lg:w-[50%] flex flex-col gap-10 p-5">
                             <h3 className="text-[20px] font-[600] text-[#3A8EDB]">Feb 9,2025</h3>
-                            <BlogHeading heading="The Future of Content Marketing: Emerging Trends to Watch" />
+                            <BlogHeading className="text-[52px]" heading="The Future of Content Marketing: Emerging Trends to Watch" />
                             <h3 className="text-[20px] font-[600]">by KSVA Tech Solutions</h3>
                         </div>
                         <div className="relative w-[95%] lg:w-[50%] h-[50vh]">
@@ -270,7 +270,7 @@ const ContentMarketing = () => {
                     </div>
                     <div className="p-5">
                         <BlogParagraph paragraph="Additionally, AI can analyze vast amounts of user data, identifying patterns in behavior and preferences to tailor content for specific audience segments. This level of personalization increases relevance, boosts engagement, and ultimately improves conversion rates, making AI an essential tool in modern content marketing strategies." />
-                        <BlogHeading heading="Why it matters?" className="py-5"/>
+                        <BlogHeading  heading="Why it matters?" className="text-[52px] py-5"/>
                         <BlogParagraph paragraph="Personalized content drives more than 80% of customer engagement. In the future, AI will help brands deliver hyper personalized experiences in real time, creating a deeper connection with their audience." />
                     </div>
                 </section>
@@ -287,7 +287,7 @@ const ContentMarketing = () => {
                     </div>
                     <BlogParagraph className="p-5" paragraph="Platforms like TikTok, Instagram Reels, and YouTube Shorts have revolutionized the way content is consumed, showcasing the immense power of short-form videos. These bite-sized, visually engaging snippets effectively capture attention in just a few seconds, making them ideal for delivering concise yet impactful messages." />
                     <BlogParagraph className="p-5" paragraph="Their highly shareable nature allows brands to reach wider audiences, drive engagement, and increase brand awareness organically. By leveraging trends, music, and creative storytelling, marketers can craft compelling short videos that resonate with viewers, making them an essential component of any modern content marketing strategy." />
-                    <BlogHeading heading="How to benefit?" className="p-5" />
+                    <BlogHeading heading="How to benefit?" className="text-[52px] p-5" />
                     <ul className="flex flex-col gap-5 p-5 text-[18px] lg:text-[24px]">
                         <li className="flex items-center ">
                             <FontAwesomeIcon icon={faDiamond} className="text-blue-500 h-[30px] w-[30px] mr-2" />
@@ -334,7 +334,7 @@ const ContentMarketing = () => {
                     <BlogParagraph paragraph="In an era where online audiences are bombarded with endless content, standing out requires more than just traditional blogs and static visuals. Consumers crave engaging, dynamic experiences that capture their attention and encourage participation. This is where interactive content comes into play, transforming passive viewers into active participants." />
                     <BlogParagraph paragraph="Interactive content—such as quizzes, polls, augmented reality (AR) experiences, and 360-degree videos—offers a more immersive and memorable way to connect with audiences." />
                     <BlogParagraph paragraph="Unlike conventional content, these interactive elements create a two-way engagement, encouraging users to interact, share, and spend more time with the brand. Whether it’s a personality quiz that helps users find the perfect product, a poll that sparks conversation, or an AR feature that lets customers visualize products in their space, interactive content enhances user experience and boosts engagement rates." />
-                    <BlogHeading heading="Case in point:" className="p-5" />
+                    <BlogHeading heading="Case in point:" className="text-[52px] p-5" />
                     <BlogParagraph paragraph="Brands like IKEA use Augmented Reality (AR) to let users visualize furniture in their homes, making the buying process more interactive and customer-centric." />
                     <div className="flex lg:flex-row flex-col gap-5 m-10">
                         <div className="relative mx-auto w-full lg:w-[calc(100%/2.3)] h-[500px]">
@@ -381,7 +381,7 @@ const ContentMarketing = () => {
                     <BlogParagraph paragraph="Businesses that actively encourage and showcase UGC not only enhance their authenticity but also drive higher engagement and loyalty. From featuring customer testimonials on websites to resharing social media posts, leveraging UGC is an effective way to humanize a brand and build stronger connections with audiences." />
                     <div className="flex lg:flex-row flex-col-reverse gap-5 mt-10">
                         <div className="w-full lg:w-[50%]">
-                            <BlogHeading heading="Coca-Cola: Share a Coke Campaign" className="p-5" />
+                            <BlogHeading heading="Coca-Cola: Share a Coke Campaign" className="text-[52px] p-5" />
                             <BlogParagraph paragraph="Launched in 2011, the Share a Coke campaign featured hundreds of the most popular first names on Coca-Cola cans and bottles. Traditional ads and in-store displays encouraged customers to find a bottle or can with their name on it and post a picture of it on social media with the #ShareaCoke hashtag." />
                             <BlogParagraph paragraph="From creative-directed Instagram posts to casual selfies, the campaign inspired great examples of UGC. Not only did Coca-Cola get more authentic content for its social networks, but it also let consumers engage with the brand while expressing their creativity." />
                         </div>

@@ -46,7 +46,7 @@ const Case1 = () => {
                             <hr className="bg-white h-[5px]" />
                             <BlogHeading className="text-white text-[28px]" heading="OVERVIEW" />
                             <BlogParagraph className="text-white" paragraph="Artificial Intelligence (AI) has revolutionized digital marketing by enabling businesses to analyze vast amounts of data, personalize customer experiences, and optimize advertising campaigns. This case study explores how AI has been leveraged by a leading e-commerce brand to enhance its marketing efforts, improve customer engagement, and boost revenue." />
-                            <BlogParagraph className="absolute left-0 bottom-[-50vh] w-[100vw] bg-white p-10" paragraph="'The real power of AI in marketing is making data-driven decisions faster and with greater accuracy.'– Sundar Pichai, CEO of Google and Alphabet" />
+                            <BlogParagraph className="absolute left-0 bottom-[-50vh] w-[100vw] bg-white p-10 px-20" paragraph="'The real power of AI in marketing is making data-driven decisions faster and with greater accuracy.'– Sundar Pichai, CEO of Google and Alphabet" />
                         </div>
                         <div className="relative w-[50%]  h-[800px]">
                             <div className="absolute top-0 left-[200px] mx-auto w-[50%] h-[400px]">

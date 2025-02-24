@@ -9,9 +9,9 @@ const DigitalSuccess = () => {
     return (
         <div className="max-w-7xl  mx-auto pb-20">
             <section className="flex mx-auto w-[95%] lg:w-full h-[80vh] lg:h-[90vh] bg-[url(/ds-1.png)] rounded-[50px] bg-auto lg:bg-cover bg-center bg-no-repeat">
-                <div className="flex flex-col gap-5 w-[58%] h-full p-10">
+                <div className="flex flex-col w-[58%] h-full px-8">
                     <BlogParagraph paragraph={"Jan 31, 2025"} className="text-[20px] font-bold" />
-                    <BlogHeading className="font-bold" heading={"Why Every Business Needs a Website: The Role of UX, SEO & AI in Digital Success"} />
+                    <BlogHeading className="text-[52px] font-bold" heading={"Why Every Business Needs a Website: The Role of UX, SEO & AI in Digital Success"} />
                     <BlogParagraph paragraph={"by KSVA Tech Solutions"} className="text-[20px] font-bold text-white" />
                 </div>
             </section>
@@ -20,14 +20,14 @@ const DigitalSuccess = () => {
                 <BlogParagraph paragraph={"However, the effectiveness of a website is significantly influenced by three critical factors: User Experience (UX), Search Engine Optimization (SEO), and the integration of Artificial Intelligence (AI)."} />
             </div>
             <section className="p-5">
-                <BlogHeading heading={"The Imperative of Having a Website"} className="font-bold text-center p-5" />
+                <BlogHeading heading={"The Imperative of Having a Website"} className="font-bold text-[52px] text-center p-5" />
                 <div className="relative mx-auto w-full lg:w-[50%] h-[200px] lg:h-[500px]">
                     <Image src="/ds-2.png" alt="Image" layout="fill" className="w-full h-full transition-transform duration-300 hover:scale-105" />
                 </div>
                 <BlogParagraph paragraph={"A professional website enhances a business's credibility, making it more accessible to potential customers. According to Forbes, a strong online presence can be pivotal in generating revenue, as many customers research online before making purchasing decisions. Without a website, businesses risk losing potential customers to competitors who are more accessible online."} className="text-center" />
             </section>
             <section className="lg:mt-10 p-5">
-                <BlogHeading heading={"User Experience (UX): The Foundation of Engagement"} className="font-bold text-center" />
+                <BlogHeading heading={"User Experience (UX): The Foundation of Engagement"} className="font-bold text-center text-[52px]" />
                 <BlogParagraph className="text-center" paragraph={"User Experience encompasses all aspects of a user's interaction with a website. A well-designed UX ensures that visitors find the site intuitive, accessible, and engaging. Key elements include:"} />
                 <div className="flex flex-col gap-5 w-full text-[18px] lg:text-[40px]">
                     <div>
@@ -46,7 +46,7 @@ const DigitalSuccess = () => {
                 </div>
             </section>
             <section className="lg:mt-10 p-5">
-                <BlogHeading className="text-center" heading={"Search Engine Optimization (SEO): Enhancing Visibility"} />
+                <BlogHeading className="text-center text-[52px]" heading={"Search Engine Optimization (SEO): Enhancing Visibility"} />
                 <BlogParagraph className="text-center" paragraph={"SEO involves optimizing a website to rank higher in search engine results, thereby increasing its visibility to potential customers. Effective SEO strategies include:"} />
                 <div className="m-5">
                     <div className="flex lg:flex-row flex-col-reverse w-full lg:w-[60%] mx-auto items-center gap-5">
@@ -67,7 +67,7 @@ const DigitalSuccess = () => {
                             <Image src="/ds-4.png" alt="Image" layout="fill" className="w-full h-full transition-transform duration-300 hover:scale-105" />
                         </div>
                     </div>
-                    <div className="flex lg:flex-row-reverse flex-col-reverse w-full lg:w-[60%] mx-auto items-center gap-5">
+                    <div className="flex lg:flex-row flex-col-reverse w-full lg:w-[60%] mx-auto items-center gap-5">
                         <div className="w-full lg:w-[50%]">
                             <BlogNumHeading heading={"Backlink Building "} />
                             <BlogParagraph paragraph={"Establishing authority through links from reputable external sites."} />
@@ -84,7 +84,7 @@ const DigitalSuccess = () => {
                     <div className="relative mx-auto w-[300px] h-[300px]">
                         <Image src="/ds-6.png" alt="Image" layout="fill" className="w-full h-full transition-transform duration-300 hover:scale-105" />
                     </div>
-                    <BlogHeading heading={"Artificial Intelligence (AI): Driving Innovation "} />
+                    <BlogHeading className="text-[52px]" heading={"Artificial Intelligence (AI): Driving Innovation "} />
                 </div>
                 <BlogParagraph paragraph={"The integration of AI into websites is transforming how businesses interact with customers and optimize their operations. AI applications in websites include:"} />
                 <div>

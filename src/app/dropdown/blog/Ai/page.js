@@ -204,7 +204,7 @@ const AiContent = () => {
                     </div>
                 </div>
                 <div className="w-full py-5">
-                    <BlogHeading heading="The Future: What’s Next for AI in Web Development?" />
+                    <BlogHeading className="text-[52px]" heading="The Future: What’s Next for AI in Web Development?" />
                     <div className="relative w-full h-[50vh]">
                         <div className="absolute mx-auto w-[50%] lg:w-[30%] h-[600px] lg:h-[500px] left-0 top-[-50px]">
                             <Image

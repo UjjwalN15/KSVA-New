@@ -102,7 +102,7 @@ const SwiperComponent = () => {
                         {/* Button */}
                         <a
                             href="#"
-                            title="Search Salary"
+                            title="Hire KSVA Employees"
                             className="!w-full bg-[#D9D9D9] p-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Hire KSVA Tech Solutions Employees
@@ -130,7 +130,7 @@ const SwiperComponent = () => {
                         {/* Button */}
                         <a
                             href="#"
-                            title="Search Salary"
+                            title="Access Report"
                             className="!w-full bg-[#D9D9D9] p-3 mt-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Access Report 
@@ -158,7 +158,7 @@ const SwiperComponent = () => {
                         {/* Button */}
                         <a
                             href="#"
-                            title="Search Salary"
+                            title="Hire Contract Talent"
                             className="!w-full bg-[#D9D9D9] p-3 mt-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Hire Contract Talent
@@ -186,7 +186,7 @@ const SwiperComponent = () => {
                         {/* Button */}
                         <a
                             href="#"
-                            title="Search Salary"
+                            title="Find More Talent"
                             className="!w-full bg-[#D9D9D9] p-3 mt-3 rounded-[20px] text-sm lg:text-[24px]"
                         >
                             Find More Talent

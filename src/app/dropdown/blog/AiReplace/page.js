@@ -10,12 +10,12 @@ const AiReplace = () => {
             <section className="bg-blue-400 flex w-full h-[90vh] bg-[url(/aireplace-1.png)] rounded-[50px] bg-cover bg-center bg-no-repeat">
                 <div className="justify-self-center mx-auto self-end text-center pb-10">
                     <h3 className="text-[24px] font-[800]">2 Feb, 2025</h3>
-                    <BlogHeading className="text-white" heading="When is AI going to replace us?" />
+                    <BlogHeading className="text-white text-[52px]" heading="When is AI going to replace us?" />
                     <h3 className="text-[24px] text-white font-[800]">by KSVA Tech Solutions</h3>
                 </div>
             </section>
             <section>
-                <BlogHeading heading="What is AI?" />
+                <BlogHeading className="text-[52px]" heading="What is AI?" />
                 <BlogParagraph paragraph="Artificial Intelligence is a subfield of computer science that focuses on creating intelligent agents capable of performing tasks that would typically require human levels of intelligence. These tasks include problem-solving, speech recognition, and decision-making, among others." />
                 <BlogParagraph paragraph="AI is an interdisciplinary science with many approaches; it can be rule-based and operate under a predefined set or conditions, or it can use machine learning algorithms to adapt to its environment. The latter is particularly powerful, as it allows AI systems to learn from data, making them more versatile and capable of handling unforeseen scenarios." />
                 <div className="relative m-5 mx-auto w-[60%] h-[300px]">
@@ -24,7 +24,7 @@ const AiReplace = () => {
                 <BlogParagraph paragraph={"The rapid advancement of artificial intelligence (AI) has led to significant transformations in various industries, prompting concerns about job displacement. While AI is automating certain tasks, the complete replacement of human workers is not imminent. Instead, AI is reshaping the workforce, augmenting human capabilities, and creating new opportunities."} />
             </section>
             <section>
-                <BlogHeading heading="Future Projections" />
+                <BlogHeading className="text-[52px]" heading="Future Projections" />
                 <BlogParagraph paragraph="AI is expected to incorporate a wide range of sensors and capabilities, leading to an important question: Are we moving toward a single, all-encompassing model capable of performing various roles—such as doctor, lawyer, accountant, and mathematician? Or will AI be developed as specialized models, each designed for a specific task? " />
                 <div className="flex justify-between">
                     <div className="relative m-5 mx-auto w-[32%] h-[500px]">
@@ -42,7 +42,7 @@ const AiReplace = () => {
                 <BlogParagraph paragraph="A report by Goldman Sachs suggests that AI could replace the equivalent of 300 million full-time jobs, potentially automating a quarter of work tasks in the U.S. and Europe. However, this same report indicates that AI may also lead to new job creation and a productivity boom, potentially increasing the global annual value of goods and services by 7%." />
             </section>
             <section>
-                <BlogHeading heading="Balancing Automation and Human Skills" />
+                <BlogHeading className="text-[52px]" heading="Balancing Automation and Human Skills" />
                 <div className="relative m-5 mx-auto w-[40%] h-[400px]">
                     <Image src="/aireplace-6.png" alt="Image" layout="fill" className="w-full h-full transition-transform duration-300 hover:scale-105" />
                 </div>
@@ -66,7 +66,7 @@ const AiReplace = () => {
             <section>
                 <div className="flex w-full mx-auto items-center gap-5 m-5">
                     <div className="w-[50%]">
-                        <BlogHeading heading={"Will AI Replace Us? "} />
+                        <BlogHeading className="text-[52px]" heading={"Will AI Replace Us? "} />
                         <BlogParagraph paragraph={"The simple answer is 'no'—at least not with the current state of technology. However, the reality is more nuanced. Rather than completely replacing jobs, AI is better understood as automating specific tasks. Broadly speaking, tasks can be categorized by duration—those that take seconds or minutes (such as drafting an email) and those that take hours or days (like strategic planning or developing innovative work models)."} />
                     </div>
                     <div className="relative mx-auto w-[50%] h-[500px]">

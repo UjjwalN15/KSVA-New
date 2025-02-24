@@ -162,7 +162,7 @@ const SearchAi = () => {
             <BlogParagraph className="p-5" paragraph="In the dynamic world of digital marketing, Search Engine Optimization (SEO) has always been a cornerstone strategy for enhancing online visibility. However, the advent of Artificial Intelligence (AI) is reshaping the SEO landscape, introducing new paradigms in how search algorithms operate and how websites should be optimized. Understanding these changes is crucial for businesses aiming to maintain and improve their search rankings in this AI-driven era." />
 
             <div className="w-full p-5">
-                <BlogHeading heading="The Evolution of Search Algorithms with AI" />
+                <BlogHeading className="text-[52px]" heading="The Evolution of Search Algorithms with AI" />
                 <BlogParagraph paragraph="Search engines have evolved from simple keyword-matching systems to sophisticated platforms capable of understanding context, intent, and semantics. AI and Machine Learning (ML) are at the heart of this transformation, enabling search algorithms to deliver more accurate and personalized results." />
                 <BlogParagraph paragraph="For instance, Google's RankBrain, an AI-powered component of the search algorithm, interprets user queries to provide the most relevant results. It analyzes patterns in complex search queries and learns from user interactions to improve search accuracy over time." />
 
@@ -177,7 +177,7 @@ const SearchAi = () => {
             </div>
 
             <section className="p-5">
-                <BlogHeading heading="Impact on SEO Strategies" className=" w-full" />
+                <BlogHeading heading="Impact on SEO Strategies" className="text-[52px] w-full" />
                 <BlogParagraph paragraph="The integration of AI into search algorithms necessitates a shift in SEO strategies. Here’s how:" />
 
                 <div className="w-full py-5">
@@ -209,7 +209,7 @@ const SearchAi = () => {
                 </div>
                 <div className="w-full flex lg:flex-row flex-col-reverse">
                     <div className="w-full lg:w-[60%] flex flex-col">
-                        <BlogHeading heading="Final Thoughts" className=" w-[50%]" />
+                        <BlogHeading heading="Final Thoughts" className=" text-[52px] w-[50%]" />
                         <BlogParagraph paragraph="AI is not just influencing the future of SEO; it is actively defining it. By understanding the implications of AI-driven search algorithms and adapting your SEO strategies accordingly, you can ensure that your website remains competitive and visible in search engine results. Embracing this evolution will position your brand for sustained success in the digital marketplace." />
                     </div>
                     <div className="w-full lg:w-[43%] h-[60vh] relative">

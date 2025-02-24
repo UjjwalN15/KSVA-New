@@ -35,7 +35,7 @@ const CaseStudySwiper = () => {
         const tagArray = tags.split(",").map((tag) => tag.trim());
 
         return (
-            <div className="flex flex-col items-center w-full gap-5 h-max lg:h-[400px] p-5 pr-10 border-2 border-[#000000]">
+            <div className="flex flex-col items-center w-full gap-5 h-[max] lg:h-[450px] p-5 pr-10 border-2 border-[#000000]">
                 <h3 className="text-[#013056] text-4xl text-center font-[700]">{title}</h3> {/* ✅ Title correctly displayed */}
                 <div className="w-full pr-10 flex flex-wrap gap-5 ml-16">
                     {tagArray.map((tag, index) => (

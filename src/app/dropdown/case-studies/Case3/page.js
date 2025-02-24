@@ -23,7 +23,7 @@ const Case3 = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-10 h-max p-5">
-                        <BlogHeading className="text-[#225B79] text-[32px]" heading="Income Potential for UGC Creators" />
+                        <BlogHeading className="text-[#225B79] text-[52px]" heading="Income Potential for UGC Creators" />
                         <div className="w-full flex flex-col gap-2">
                             <BlogHeading className="text-[32px] text-black" heading="Beginner Creators" />
                             <BlogParagraph className="text-[#8C864F]" paragraph=" $100–$500 per piece of content" />
@@ -60,7 +60,7 @@ const Case3 = () => {
                     </div>
                     <div className="flex flex-col gap-3 h-max p-5">
                         <em><BlogHeading className="text-[#0C222F] text-[32px]" heading="'Consumers trust UGC more than brand-generated content.'" /></em>
-                        <BlogHeading className="text-[#0C222F]" heading="– Nielsen" />
+                        <BlogHeading className="text-[#0C222F] text-[32px]" heading="– Nielsen" />
                     </div>
                 </div>
             </section>

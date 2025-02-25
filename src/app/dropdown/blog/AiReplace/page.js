@@ -60,7 +60,7 @@ const AiReplace = () => {
                         <h4 className="flex items-center gap-5 text-[40px]"><FontAwesomeIcon icon={faCircleCheck} className="text-black h-[50px] w-[50px]" /> <span>Ethical and Complex Decision-Making  </span></h4>
                         <BlogParagraph paragraph={"AI operates based on patterns, data, and pre-programmed logic, but it lacks moral reasoning and ethical judgment. In fields such as law, governance, and business leadership, decisions often involve ethical dilemmas and considerations that go beyond data analysis. For example, an AI algorithm may suggest cost-cutting measures for a company, but a human executive must evaluate the ethical implications of layoffs or wage reductions. Similarly, in criminal justice, AI can help analyze cases, but the judgment and empathy required in sentencing or rehabilitation decisions remain fundamentally human responsibilities."} />
                     </div>
-                    <BlogParagraph paragraph={"A positive UX not only retains visitors but also encourages them to explore more, increasing the likelihood of conversions. As highlighted by HubSpot, merging UX and SEO best practices can create a seamless, efficient, and user-friendly digital experience."} />
+                    {/* <BlogParagraph paragraph={"A positive UX not only retains visitors but also encourages them to explore more, increasing the likelihood of conversions. As highlighted by HubSpot, merging UX and SEO best practices can create a seamless, efficient, and user-friendly digital experience."} /> */}
                 </div>
             </section>
             <section>

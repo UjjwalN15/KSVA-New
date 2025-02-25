@@ -52,7 +52,7 @@ export default function HireForm() {
                     <div className="absolute bottom-0 left-0 w-[4px] h-[100px] bg-[#4A98D7] rounded-full"></div>
 
                     <div>
-                        <BlogHeading className="text-black text-center px-20 mx-auto" heading="Let us know what you’re looking for" />
+                        <BlogHeading className="text-black text-[52px] text-center px-20 mx-auto" heading="Let us know what you’re looking for" />
                         <BlogParagraph className="text-[#417EAF] mt-10 text-center" paragraph="Position Details" />
                         <form className="flex flex-col gap-5" onSubmit={handleSubmit}>
                             <div>
@@ -119,7 +119,7 @@ export default function HireForm() {
                     <div className="absolute bottom-0 left-0 w-[4px] h-[100px] bg-[#4A98D7] rounded-full"></div>
 
                     <div>
-                        <BlogHeading className="text-black text-center px-20 mx-auto" heading="Let us know what you’re looking for" />
+                        <BlogHeading className="text-black text-[52px]  text-center px-20 mx-auto" heading="Let us know what you’re looking for" />
                         <BlogParagraph className="text-[#417EAF] mt-10 text-center" paragraph="Contact Info" />
                         <form className="flex flex-col gap-5" onSubmit={handleSubmit}>
                             <div>

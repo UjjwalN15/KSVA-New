@@ -42,7 +42,7 @@ const PreviewCandidates = () => {
             </section>
             <section className="max-w-7xl mx-auto py-10">
                 <div className="text-center">
-                    <BlogHeading className="text-black" heading={`How it <span class="text-[#4A98D7]">Works</span>`} />
+                    <BlogHeading className="text-black text-[52px]" heading={`How it <span class="text-[#4A98D7]">Works</span>`} />
                     <BlogParagraph className="" paragraph="Your guide to a seamless hiring process." />
                 </div>
                 <div className="flex justify-between">

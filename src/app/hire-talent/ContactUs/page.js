@@ -7,7 +7,7 @@ const ContactUs = () => {
         <>
             <section className="relative w-full h-[50vh] py-10" style={{ backgroundImage: 'url(/hire-bg.png)' }}>
                 <div className="max-w-7xl mx-auto text-center flex flex-col gap-10">
-                    <BlogHeading className="text-[32px] lg:text-[64px] font-[700] text-[#4A98D7]" heading="Contact Us" />
+                    <BlogHeading className="text-[52px] lg:text-[64px] font-[700] text-[#4A98D7]" heading="Contact Us" />
                     <BlogParagraph className="text-[20px] lg:text-[30px] text-[#4A98D7]" paragraph="Get in Touch with our team." />
                     <div className="absolute w-[50%] right-0 bottom-0 h-[300px]">
                         <Image src="/contact-1.png" alt="Image" layout="fill" className="object-contain w-full h-full transition-transform duration-300 hover:scale-105" />

@@ -11,7 +11,7 @@ const HireNow = () => {
             <section className="relative w-full h-[50vh] py-10" style={{ backgroundImage: 'url(/hire-bg.png)' }}>
                 <div className="max-w-7xl mx-auto text-center w-[50%]">
                     <BlogParagraph className="text-center" paragraph={`Need immediate help? Call <span class="text-[#0892A7]">562-310-1189</span>`} />
-                    <BlogHeading className="text-black" heading={`We have the right <span class="text-[#0892A7]">talent</span> for your <span class="text-[#0892A7]">hiring</span> needs`} />
+                    <BlogHeading className="text-black text-[52px]" heading={`We have the right <span class="text-[#0892A7]">talent</span> for your <span class="text-[#0892A7]">hiring</span> needs`} />
                     <BlogParagraph className="" paragraph="Our recruiters will help you find skilled candidates ready for your role." />
                 </div>
             </section>

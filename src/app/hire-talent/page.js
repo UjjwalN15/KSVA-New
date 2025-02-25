@@ -22,7 +22,7 @@ const HireTalentPage = () => {
                     />
                 </div>
                 <div className="w-full p-5">
-                    <h2 className="text-4xl font-semibold">Discover your <br /> <span className="text-blue-400">next hire !</span></h2>
+                    <h2 className="text-7xl font-semibold">Discover your <br /> <span className="text-blue-400">next hire !</span></h2>
                     <p className="text-[18px] lg:text-2xl w-full lg:w-[40%] mt-10 leading-10">Explore recruiter-reviewed and AI-matched candidates, or share details about your open role to start hiring
                         today. <br /> <br /> <strong>The decision is yours.</strong></p>
                     <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row w-full items-center shadow-2xl p-5 lg:w-[55%] text-xl lg:text-2xl mt-[100px] justify-between">
@@ -127,7 +127,7 @@ const HireTalentPage = () => {
                                 <input required type="text" placeholder="'Remote', City or ZIP" className="text-xl lg:text-[26px] lg:px-3 px-1 bg-none outline-none border-b-2 rounded-[10px] border-blue-500"></input>
                             </div>
                         </div>
-                        <button type="submit" className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Preview Candidates</button>
+                        <a href="/hire-talent/PreviewCandidates" className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Preview Candidates</a>
                     </form>
                 </div>
             </section>
@@ -143,8 +143,8 @@ const HireTalentPage = () => {
                 <div className="w-full lg:w-[50%] flex flex-col justify-center gap-10 p-5">
                     <h2 className="text-2xl lg:text-4xl">Hire talent <br /> <span className="text-blue-400">that delivers</span></h2>
                     <p className="text-[18px] lg:text-[24px]">We guarantee every professional we place and offer a free replacement if you’re not satisfied.</p>
-                    <button type="submit"
-                        className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Find Your next Hire</button>
+                    <a href="/hire-talent/HireNow"
+                        className="w-max self-center rounded-[10px] py-[10px] cursor-pointer px-[20px] bg-gradient-to-r transition-transform hover:scale-105 from-[#275071] to-[#4A98D7] text-white">Find Your next Hire</a>
                 </div>
             </section>
             <section className="max-w-7xl mx-auto flex flex-col mt-5">
@@ -154,9 +154,9 @@ const HireTalentPage = () => {
                         <p className="text-[18px] lg:text-[24px] leading-10">
                             Whether managing your workforce, tackling complex challenges, or transforming your business, KSVA's expertise integrates with our talent network to deliver flexible, tailored solutions.
                         </p>
-                        <button type="submit" className="w-max mx-auto rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#275071] to-[#4A98D7] text-white transition-transform hover:scale-105">
+                        <a href="/hire-talent/access-global" className="w-max mx-auto rounded-[10px] py-2 px-5 bg-gradient-to-r from-[#275071] to-[#4A98D7] text-white transition-transform hover:scale-105">
                             Learn More
-                        </button>
+                        </a>
                     </div>
                     <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl lg:w-[50%] flex justify-center items-center">
                         <Image

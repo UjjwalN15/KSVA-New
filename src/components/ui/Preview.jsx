@@ -8,7 +8,7 @@ const PreviewCandidate = () => {
     const [activeIndex, setActiveIndex] = useState(0); // Track active tab
     return (
         <section className="max-w-7xl mx-auto py-10 px-20" style={{ backgroundImage: 'url(/preview-1.png)' }}>
-            <BlogHeading className="text-black text-center" heading={`Browse and discover <span class="text-[#4A98D7]">talent</span> for your company`} />
+            <BlogHeading className="text-black text-[52px] text-center" heading={`Browse and discover <span class="text-[#4A98D7]">talent</span> for your company`} />
 
             {/* Category Tabs */}
             <ul className="flex text-[32px] font-[700] mt-10 justify-between">
@@ -28,7 +28,7 @@ const PreviewCandidate = () => {
                 {activeIndex === 0 && (
                     <div>
                         <BlogParagraph className="text-center" paragraph="From cybersecurity experts to developers, we connect you with top talent possessing in demand skills and experience while streamlining the hiring process for you." />
-                        <BlogHeading className="text-black font-[700]" heading="Trending Job Titles" />
+                        <BlogHeading className="text-black text-[52px] font-[700]" heading="Trending Job Titles" />
                         <div>
                             <ul className="flex flex-wrap text-[32px]">
                                 <li className="font-[600] underline underline-offset-8 p-5 w-[50%]">Software Developer</li>
@@ -45,7 +45,7 @@ const PreviewCandidate = () => {
                 {activeIndex === 1 && (
                     <div>
                         <BlogParagraph className="text-center" paragraph="From copywriters to creative directors, we’ll bring you top candidates with in-demand skills and experience and help manage the hiring process for you." />
-                        <BlogHeading className="text-black font-[700]" heading="Trending Job Titles" />
+                        <BlogHeading className="text-black text-[52px] font-[700]" heading="Trending Job Titles" />
                         <div>
                             <ul className="flex flex-wrap text-[32px]">
                                 <li className="font-[600] underline underline-offset-8 p-5 w-[50%]">Graphic Designer</li>
@@ -62,7 +62,7 @@ const PreviewCandidate = () => {
                 {activeIndex === 2 && (
                     <div>
                         <BlogParagraph className="text-center" paragraph="From accountants to CFOs, we’ll bring you top candidates with in-demand skills and experience and help manage the hiring process for you." />
-                        <BlogHeading className="text-black font-[700]" heading="Trending Job Titles" />
+                        <BlogHeading className="text-black text-[52px] font-[700]" heading="Trending Job Titles" />
                         <div>
                             <ul className="flex flex-wrap text-[32px]">
                                 <li className="font-[600] underline underline-offset-8 p-5 w-[50%]">Controller</li>
@@ -79,7 +79,7 @@ const PreviewCandidate = () => {
                 {activeIndex === 3 && (
                     <div>
                         <BlogParagraph className="text-center" paragraph="From lawyers to paralegals, we’ll bring you top candidates with in-demand skills and experience and help manage the hiring process for you." />
-                        <BlogHeading className="text-black font-[700]" heading="Trending Job Titles" />
+                        <BlogHeading className="text-black text-[52px] font-[700]" heading="Trending Job Titles" />
                         <div>
                             <ul className="flex flex-wrap text-[32px]">
                                 <li className="font-[600] underline underline-offset-8 p-5 w-[50%]">Lawyer</li>
